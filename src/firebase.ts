@@ -81,7 +81,17 @@ export function cancelSession(): Promise<void> {
 }
 
 export function updateSession(patch: Partial<SessionState>): Promise<void> {
-  return update(sessionRef(), patch);
+  return update(sessionRef(), patch).catch(err => {
+    console.error('[firebase] updateSession failed:', err);
+    throw err;
+  });
+}
+
+export function updateSessionPaths(updates: Record<string, unknown>): Promise<void> {
+  return update(sessionRef(), updates).catch(err => {
+    console.error('[firebase] updateSessionPaths failed:', err);
+    throw err;
+  });
 }
 
 export function tryClaimBuzz(playerName: string, buzzTimeMs: number): Promise<boolean> {
@@ -89,9 +99,10 @@ export function tryClaimBuzz(playerName: string, buzzTimeMs: number): Promise<bo
     if (current === null || current === undefined) return playerName;
     return; // abort - someone already buzzed
   }).then(result => {
-    if (result.committed) {
-      return update(sessionRef(), { buzzTime: buzzTimeMs }).then(() => true);
-    }
+    if (!result.committed) return false;
+    return update(sessionRef(), { buzzTime: buzzTimeMs }).then(() => true);
+  }).catch(err => {
+    console.error('[firebase] tryClaimBuzz failed:', err);
     return false;
   });
 }
@@ -105,5 +116,9 @@ export function incrementQuestionStat(qId: string, kind: QuestionStatKind): Prom
       correct: (data.correct ?? 0) + (kind === 'correct' ? 1 : 0),
       wrong: (data.wrong ?? 0) + (kind === 'wrong' ? 1 : 0),
     };
-  }).then(() => undefined);
+  })
+    .then(() => undefined)
+    .catch(err => {
+      console.error('[firebase] incrementQuestionStat failed:', err);
+    });
 }

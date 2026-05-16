@@ -17,6 +17,7 @@ import {
   subscribeToSession,
   tryClaimBuzz,
   updateSession,
+  updateSessionPaths,
 } from './firebase';
 import { fetchManifest, loadTopic, type ManifestEntry } from './topicLoader';
 import type {
@@ -106,14 +107,7 @@ export default function App() {
     if (session.players?.[trimmed]) return;
 
     const newPlayer: SessionPlayer = { deviceId, score: 0, joinedAt: Date.now() };
-    const updates: Partial<SessionState> = {
-      players: { ...(session.players ?? {}), [trimmed]: newPlayer },
-    };
-    // Mid-question: lock the late joiner out so they can't buzz the in-flight Q.
-    if (session.phase === 'quiz' && !session.revealed) {
-      updates.lockedOut = { ...(session.lockedOut ?? {}), [trimmed]: true };
-    }
-    await updateSession(updates);
+    await updateSessionPaths({ [`players/${trimmed}`]: newPlayer });
   };
 
   const handleCancel = async () => {
@@ -165,13 +159,10 @@ export default function App() {
       wonBy: winner,
       losers: Object.keys(session.lockedOut ?? {}),
     };
-    await updateSession({
+    await updateSessionPaths({
       revealed: true,
       roundResults: [...(session.roundResults ?? []), entry],
-      players: {
-        ...session.players,
-        [winner]: { ...session.players[winner], score: newScore },
-      },
+      [`players/${winner}/score`]: newScore,
     });
     void incrementQuestionStat(currentQ.id, 'correct');
   };
