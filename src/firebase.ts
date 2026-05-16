@@ -28,8 +28,7 @@ export const ACTIVE_SESSION_ID = 'ACTIVE';
 
 const sessionRef = () => ref(db, `sessions/${ACTIVE_SESSION_ID}`);
 const sessionFieldRef = (field: string) => ref(db, `sessions/${ACTIVE_SESSION_ID}/${field}`);
-const questionStatRef = (qId: string, kind: QuestionStatKind) =>
-  ref(db, `questionStats/${qId}/${kind}`);
+const questionStatNodeRef = (qId: string) => ref(db, `questionStats/${qId}`);
 
 export function subscribeToSession(callback: (state: SessionState | null) => void): () => void {
   return onValue(sessionRef(), snap => {
@@ -98,7 +97,13 @@ export function tryClaimBuzz(playerName: string, buzzTimeMs: number): Promise<bo
 }
 
 export function incrementQuestionStat(qId: string, kind: QuestionStatKind): Promise<void> {
-  return runTransaction(questionStatRef(qId, kind), current => {
-    return (typeof current === 'number' ? current : 0) + 1;
+  return runTransaction(questionStatNodeRef(qId), current => {
+    const data = (current && typeof current === 'object')
+      ? (current as { correct?: number; wrong?: number })
+      : {};
+    return {
+      correct: (data.correct ?? 0) + (kind === 'correct' ? 1 : 0),
+      wrong: (data.wrong ?? 0) + (kind === 'wrong' ? 1 : 0),
+    };
   }).then(() => undefined);
 }
