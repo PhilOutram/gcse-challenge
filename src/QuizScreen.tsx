@@ -225,11 +225,13 @@ export default function QuizScreen({
       {role === 'spectator' && (() => {
         const nameTrim = name.trim();
         const clashesQm = nameTrim === session.qmName;
-        const clashesPlayer = nameTrim !== '' && playerNames.includes(nameTrim);
-        const disabled = !nameTrim || clashesQm || clashesPlayer;
+        const isReconnect = nameTrim !== '' && playerNames.includes(nameTrim);
+        const disabled = !nameTrim || clashesQm;
         return (
           <div className="p-4 rounded-lg border border-amber-700/40 bg-amber-950/15 space-y-3">
-            <div className="text-sm text-amber-300">Quiz in progress · join in?</div>
+            <div className="text-sm text-amber-300">
+              {isReconnect ? 'Reconnect to the quiz?' : 'Quiz in progress · join in?'}
+            </div>
             <input
               type="text"
               value={name}
@@ -244,12 +246,9 @@ export default function QuizScreen({
               className="w-full py-2 rounded-md bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold disabled:bg-white/10 disabled:text-slate-500"
             >
               {clashesQm ? 'Name taken (QM has it)' :
-                clashesPlayer ? 'Name already in use' :
+                isReconnect ? `Reconnect as ${nameTrim}` :
                   'Join Quiz'}
             </button>
-            <p className="text-xs text-slate-500">
-              You'll be locked out of the current question. You can buzz from the next one.
-            </p>
           </div>
         );
       })()}

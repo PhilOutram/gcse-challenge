@@ -26,7 +26,7 @@ export default function SetupScreen({
   const nameTrim = name.trim();
   const playerNames = orderedPlayerNames(session);
   const nameClashesWithQm = !!session && nameTrim === session.qmName;
-  const nameClashesWithPlayer = !!session && nameTrim !== '' && playerNames.includes(nameTrim) && role !== 'player';
+  const isReconnect = !!session && nameTrim !== '' && playerNames.includes(nameTrim) && role !== 'player';
 
   const subjects = [...new Set(manifest.map(t => t.subject))];
   const levels = [...new Set(manifest.map(t => t.level))];
@@ -65,11 +65,11 @@ export default function SetupScreen({
           <div className="space-y-2">
             <button
               onClick={onJoin}
-              disabled={!nameTrim || nameClashesWithQm || nameClashesWithPlayer}
+              disabled={!nameTrim || nameClashesWithQm}
               className="w-full py-3 rounded-md bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold tracking-wide disabled:bg-white/10 disabled:text-slate-500 transition"
             >
               {nameClashesWithQm ? 'Name taken (QM has it)' :
-                nameClashesWithPlayer ? 'Name already in use' :
+                isReconnect ? `Reconnect as ${nameTrim}` :
                   'Join Quiz'}
             </button>
             <button

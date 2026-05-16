@@ -104,7 +104,15 @@ export default function App() {
     const trimmed = name.trim();
     if (!trimmed || !session) return;
     if (trimmed === session.qmName) return;
-    if (session.players?.[trimmed]) return;
+
+    const existing = session.players?.[trimmed];
+    if (existing) {
+      // Reconnect: keep score and joinedAt, update deviceId to the new device.
+      if (existing.deviceId !== deviceId) {
+        await updateSessionPaths({ [`players/${trimmed}/deviceId`]: deviceId });
+      }
+      return;
+    }
 
     const newPlayer: SessionPlayer = { deviceId, score: 0, joinedAt: Date.now() };
     await updateSessionPaths({ [`players/${trimmed}`]: newPlayer });
