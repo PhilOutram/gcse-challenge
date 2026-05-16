@@ -1,0 +1,41 @@
+{
+  "id": "bio-y9-cells",
+  "subject": "Biology",
+  "level": "Year 9",
+  "topic": "Cells",
+  "questions": [
+    {
+      "id": "bio-y9-cells-001",
+      "q": "What is the function of mitochondria?",
+      "a": "To produce energy (ATP) — the powerhouse of the cell",
+      "hint": "It's where respiration happens",
+      "explanation": "Mitochondria are the site of aerobic respiration, where glucose and oxygen produce ATP — the cell's usable energy currency."
+    },
+    {
+      "id": "bio-y9-cells-002",
+      "q": "What is the jelly-like substance inside a cell where chemical reactions occur?",
+      "a": "Cytoplasm",
+      "explanation": "The cytoplasm is mostly water with dissolved nutrients, salts, and enzymes — the medium for most cellular reactions."
+    },
+    {
+      "id": "bio-y9-cells-003",
+      "q": "Which structure controls what enters and leaves a cell?",
+      "a": "The cell membrane",
+      "hint": "It's selectively permeable",
+      "explanation": "The cell membrane is partially permeable — it lets small molecules through but blocks large ones, controlling the cell's internal environment."
+    },
+    {
+      "id": "bio-y9-cells-004",
+      "q": "What structure do plant cells have that animal cells don't, that gives them rigidity?",
+      "a": "Cell wall",
+      "explanation": "Plant cell walls are made of cellulose, providing structural support and preventing the cell from bursting when full of water."
+    },
+    {
+      "id": "bio-y9-cells-005",
+      "q": "What green pigment in plants absorbs light for photosynthesis?",
+      "a": "Chlorophyll",
+      "hint": "It's what makes leaves green",
+      "explanation": "Chlorophyll is found in chloroplasts and absorbs mainly red and blue light, reflecting green — which is why plants look green."
+    }
+  ]
+}

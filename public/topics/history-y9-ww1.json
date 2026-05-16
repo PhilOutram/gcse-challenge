@@ -1,0 +1,41 @@
+{
+  "id": "hist-y9-ww1",
+  "subject": "History",
+  "level": "Year 9",
+  "topic": "World War One",
+  "questions": [
+    {
+      "id": "hist-y9-ww1-001",
+      "q": "In which year did World War One begin?",
+      "a": "1914",
+      "explanation": "Britain declared war on Germany on 4 August 1914, following Germany's invasion of neutral Belgium."
+    },
+    {
+      "id": "hist-y9-ww1-002",
+      "q": "What was the event in Sarajevo that triggered the war?",
+      "a": "The assassination of Archduke Franz Ferdinand",
+      "hint": "An assassination of an heir to a throne",
+      "explanation": "Franz Ferdinand, heir to the Austro-Hungarian throne, was shot on 28 June 1914. The system of alliances pulled Europe's powers into the conflict that followed."
+    },
+    {
+      "id": "hist-y9-ww1-003",
+      "q": "What was the name given to the area between opposing trenches?",
+      "a": "No man's land",
+      "explanation": "No man's land was the deadly strip between front-line trenches — typically scarred by shell craters, barbed wire, and bodies."
+    },
+    {
+      "id": "hist-y9-ww1-004",
+      "q": "Which 1916 battle on the Western Front lasted nearly five months?",
+      "a": "The Battle of the Somme",
+      "hint": "Named after a French river",
+      "explanation": "The Somme (July–November 1916) saw over a million casualties combined. The first day alone cost the British army around 57,000 men."
+    },
+    {
+      "id": "hist-y9-ww1-005",
+      "q": "In which month and year did WW1 end?",
+      "a": "November 1918",
+      "hint": "The 11th hour of the 11th day of the 11th month",
+      "explanation": "The Armistice was signed on 11 November 1918. Remembrance Day commemorates the moment fighting stopped at 11am."
+    }
+  ]
+}

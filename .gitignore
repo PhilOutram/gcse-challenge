@@ -47,8 +47,11 @@ firebase-debug.log
 firestore-debug.log
 ui-debug.log
 
-# Claude Code local settings
+# Claude Code local settings / session artifacts
 .claude/settings.local.json
+.claude/worktrees/
 
 # Misc
 *.tsbuildinfo
+.vercel
+.env*.local

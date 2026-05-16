@@ -1,0 +1,41 @@
+{
+  "id": "geo-y9-rivers",
+  "subject": "Geography",
+  "level": "Year 9",
+  "topic": "Rivers and Coasts",
+  "questions": [
+    {
+      "id": "geo-y9-rivers-001",
+      "q": "What term describes a bend or curve in a river's course?",
+      "a": "A meander",
+      "hint": "Starts with M — a winding shape",
+      "explanation": "Meanders form on the lower course of a river where lateral erosion is greater than vertical erosion."
+    },
+    {
+      "id": "geo-y9-rivers-002",
+      "q": "What is the place where a river starts called?",
+      "a": "The source",
+      "hint": "Often a spring, lake, or melting glacier",
+      "explanation": "The source is usually in upland areas. From the source, the river flows downhill towards its mouth."
+    },
+    {
+      "id": "geo-y9-rivers-003",
+      "q": "What is the name for the flat land beside a river that floods?",
+      "a": "The floodplain",
+      "explanation": "Floodplains are built up by repeated deposition of silt during floods, making them very fertile."
+    },
+    {
+      "id": "geo-y9-rivers-004",
+      "q": "What landform is created when a river meets the sea and deposits sediment?",
+      "a": "A delta",
+      "hint": "Named after a Greek letter shape",
+      "explanation": "Deltas form when a river loses energy as it enters the sea and deposits its load faster than waves can remove it."
+    },
+    {
+      "id": "geo-y9-rivers-005",
+      "q": "What is the load of a river that is rolled along its bed called?",
+      "a": "Traction",
+      "explanation": "Traction is one of four transportation processes: traction (rolling), saltation (bouncing), suspension (carried in flow), solution (dissolved)."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chem-y9-atoms",
+  "subject": "Chemistry",
+  "level": "Year 9",
+  "topic": "Atomic Structure",
+  "questions": [
+    {
+      "id": "chem-y9-atoms-001",
+      "q": "What is the relative charge of a proton?",
+      "a": "Positive (+1)",
+      "explanation": "Protons have a +1 charge, electrons have −1, neutrons are neutral. A neutral atom has equal protons and electrons."
+    },
+    {
+      "id": "chem-y9-atoms-002",
+      "q": "Where in the atom are protons and neutrons found?",
+      "a": "The nucleus",
+      "hint": "The dense centre",
+      "explanation": "The nucleus is tiny but contains almost all the atom's mass. Electrons orbit in shells around it."
+    },
+    {
+      "id": "chem-y9-atoms-003",
+      "q": "What does the atomic number of an element tell you?",
+      "a": "The number of protons",
+      "explanation": "Atomic number defines the element — every carbon atom has 6 protons, every oxygen atom has 8. Change the protons, change the element."
+    },
+    {
+      "id": "chem-y9-atoms-004",
+      "q": "What is the maximum number of electrons in the first shell of an atom?",
+      "a": "Two",
+      "hint": "Think small numbers",
+      "explanation": "Shell capacities go 2, 8, 8 (then 18) for the early elements — the first shell is closest to the nucleus and fills first."
+    },
+    {
+      "id": "chem-y9-atoms-005",
+      "q": "What name is given to atoms of the same element with different numbers of neutrons?",
+      "a": "Isotopes",
+      "explanation": "Isotopes have the same atomic number but different mass numbers. Carbon-12 and carbon-14 are isotopes — same element, different neutrons."
+    }
+  ]
+}
