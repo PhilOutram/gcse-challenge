@@ -1,0 +1,28 @@
+
+If you're already using npm and a module bundler such as webpack or Rollup, you can run the following command to install the latest SDK (Learn more):
+
+npm install firebase
+Then, initialize Firebase and begin using the SDKs for the products you'd like to use.
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAWJnuYn-xOdLxvBkqZ5AvJ8PnVtTWw_U4",
+  authDomain: "gcse-challenge.firebaseapp.com",
+  databaseURL: "https://gcse-challenge-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "gcse-challenge",
+  storageBucket: "gcse-challenge.firebasestorage.app",
+  messagingSenderId: "126883713072",
+  appId: "1:126883713072:web:1cc120dd7ebd03ec619df5",
+  measurementId: "G-VNGR98J91F"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
