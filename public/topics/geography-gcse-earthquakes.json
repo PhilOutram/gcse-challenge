@@ -1,0 +1,147 @@
+{
+  "subject": "Geography",
+  "level": "GCSE",
+  "topic": "Earthquakes",
+  "questions": [
+    {
+      "id": "geo-gcse-earthquakes-001",
+      "q": "What is a natural hazard?",
+      "a": "A naturally occurring event that poses a threat to people, property, or the environment.",
+      "hint": "Think about what makes a natural event become a hazard.",
+      "explanation": "The key word is 'threat'. An earthquake on an uninhabited island is just a natural event — it only becomes a hazard when there are people or property at risk."
+    },
+    {
+      "id": "geo-gcse-earthquakes-002",
+      "q": "What are the three types of plate margin?",
+      "a": "Constructive, destructive, and conservative.",
+      "hint": "Plates can move apart, towards each other, or alongside each other.",
+      "explanation": "Each margin type produces different tectonic activity. Constructive: plates move apart, new crust forms. Destructive: plates collide, one is subducted. Conservative: plates slide past each other."
+    },
+    {
+      "id": "geo-gcse-earthquakes-003",
+      "q": "What is the difference between the focus and the epicentre of an earthquake?",
+      "a": "The focus is the point underground where the earthquake originates; the epicentre is the point on the surface directly above the focus.",
+      "hint": "One is underground, one is on the surface.",
+      "explanation": "The focus (sometimes called the hypocentre) is where the rock actually fractures. Shaking is usually strongest at the epicentre — directly above the focus — and decreases with distance."
+    },
+    {
+      "id": "geo-gcse-earthquakes-004",
+      "q": "What scale measures the magnitude of an earthquake?",
+      "a": "The Richter scale (or the more modern moment magnitude scale).",
+      "hint": "Named after an American seismologist.",
+      "explanation": "The Richter scale is logarithmic — a magnitude 7 earthquake releases roughly 32 times the energy of a magnitude 6. Modern seismologists often use the moment magnitude scale (Mw), but Richter values are still widely quoted in the media."
+    },
+    {
+      "id": "geo-gcse-earthquakes-005",
+      "q": "At a constructive plate margin, what is happening?",
+      "a": "Two plates are moving apart, allowing magma to rise from the mantle and form new crust.",
+      "hint": "'Constructive' suggests building something new.",
+      "explanation": "The Mid-Atlantic Ridge is the classic example, where the North American and Eurasian plates are separating by 2-5 cm per year. Iceland sits directly on this ridge."
+    },
+    {
+      "id": "geo-gcse-earthquakes-006",
+      "q": "Explain how an earthquake is caused at a destructive plate margin.",
+      "a": "As denser oceanic crust subducts beneath continental crust, friction causes the plates to stick. Pressure builds up over time and is suddenly released as an earthquake when the plates slip.",
+      "hint": "Think about subduction zones and stuck plates.",
+      "explanation": "This is the most common setting for the largest earthquakes (megathrust quakes). The 2011 Tōhoku earthquake near Sendai was caused by exactly this process where the Pacific Plate subducts beneath Japan."
+    },
+    {
+      "id": "geo-gcse-earthquakes-007",
+      "q": "What is the difference between the Richter scale and the Mercalli scale?",
+      "a": "The Richter scale measures the magnitude (energy released) using seismograph readings. The Mercalli scale measures the intensity (observed effects on people, buildings and landscape) on a 1-12 scale.",
+      "hint": "One uses instruments, the other uses observations.",
+      "explanation": "A single earthquake has one Richter magnitude but multiple Mercalli intensities — intensity is highest near the epicentre and falls with distance. Mercalli is useful for historical earthquakes where no seismographs existed."
+    },
+    {
+      "id": "geo-gcse-earthquakes-008",
+      "q": "Give three primary effects of an earthquake.",
+      "a": "Buildings collapse; roads, bridges and infrastructure are damaged; water and gas pipes rupture; people are killed or injured by falling debris (any reasonable immediate physical damage).",
+      "hint": "Primary = immediate, caused directly by the shaking.",
+      "explanation": "Primary effects occur during or immediately after the shaking. They are the direct result of ground motion on the built environment and people."
+    },
+    {
+      "id": "geo-gcse-earthquakes-009",
+      "q": "Give three secondary effects of an earthquake.",
+      "a": "Fires (from broken gas pipes); tsunamis (if undersea); landslides; disease outbreaks from broken sewers and contaminated water; homelessness; economic collapse.",
+      "hint": "These follow on from the primary effects.",
+      "explanation": "Secondary effects often cause more deaths than the primary shaking itself. In the 2011 Sendai earthquake, the tsunami that followed caused most of the deaths and triggered the Fukushima nuclear disaster."
+    },
+    {
+      "id": "geo-gcse-earthquakes-010",
+      "q": "How does an undersea earthquake cause a tsunami?",
+      "a": "Sudden vertical displacement of the seabed at a subduction zone displaces a huge volume of water, sending waves outward. As the waves reach shallow coastal water they slow down and grow dramatically in height.",
+      "hint": "It's not the horizontal shaking that matters — it's vertical seabed movement.",
+      "explanation": "The 2011 Japan and 2004 Indian Ocean tsunamis were both caused by major megathrust earthquakes at subduction zones. In open ocean a tsunami may be only a few cm high but travels at the speed of a jet plane."
+    },
+    {
+      "id": "geo-gcse-earthquakes-011",
+      "q": "What is liquefaction?",
+      "a": "A process in which earthquake shaking causes water-saturated, loose soil to behave like a liquid, causing buildings to sink, tilt or topple even if structurally intact.",
+      "hint": "Solid ground temporarily acts like quicksand.",
+      "explanation": "Liquefaction famously affected parts of Sendai and the Tokyo Bay area in 2011 — many buildings remained structurally intact but sank or tilted as the ground beneath them flowed."
+    },
+    {
+      "id": "geo-gcse-earthquakes-012",
+      "q": "Explain the difference between an immediate response and a long-term response to an earthquake.",
+      "a": "Immediate responses happen in the first hours and days — search and rescue, emergency medical aid, temporary shelter, evacuation. Long-term responses take months or years — rebuilding infrastructure, revising building codes, restoring the economy, planning for future events.",
+      "hint": "Think about timeframes: hours/days vs months/years.",
+      "explanation": "Comparing the responses of HICs and LICs is a core GCSE skill. HICs typically have faster, better-resourced responses at both stages, leading to lower death tolls and faster recovery."
+    },
+    {
+      "id": "geo-gcse-earthquakes-013",
+      "q": "Give three reasons why people continue to live in areas prone to earthquakes.",
+      "a": "Fertile soils (especially near volcanoes); employment in important industries; family and cultural ties; lack of financial resources to relocate; low perception of risk between events; geothermal energy or tourism opportunities.",
+      "hint": "Some reasons are economic, some are social.",
+      "explanation": "For many people the choice isn't really a choice — they lack the means to move. Others stay because the benefits (jobs, family, fertile land) outweigh the perceived risk, particularly between rare major events."
+    },
+    {
+      "id": "geo-gcse-earthquakes-014",
+      "q": "What are the '3 Ps' of managing tectonic hazards?",
+      "a": "Prediction, Planning (preparation), and Protection.",
+      "hint": "Three stages of reducing the impact of an earthquake.",
+      "explanation": "Some specifications add Monitoring (making 4 Ps). Prediction of exact timing is currently extremely limited; Planning (drills, education) and Protection (building design) save far more lives in practice."
+    },
+    {
+      "id": "geo-gcse-earthquakes-015",
+      "q": "Give two examples of how a country can protect buildings against earthquakes.",
+      "a": "Reinforced foundations; flexible building frames designed to sway; base-isolation pads (rubber and lead bearings under the building); counterweights at the top of skyscrapers to dampen movement; automatic gas shut-off valves to prevent fires.",
+      "hint": "Think about how a building might be designed to absorb shaking.",
+      "explanation": "Modern Japanese skyscrapers combine several of these techniques. Tokyo's Skytree, for example, uses a central concrete column that moves out of phase with the outer structure to cancel out vibrations."
+    },
+    {
+      "id": "geo-gcse-earthquakes-016",
+      "q": "Where and when did the Sendai (Tōhoku) earthquake strike, and what was its magnitude?",
+      "a": "On 11 March 2011, off the east coast of Japan near Sendai, with a magnitude of 9.0 — one of the most powerful earthquakes ever recorded.",
+      "hint": "It happened in 2011 and triggered a devastating tsunami.",
+      "explanation": "The epicentre was around 130 km east of Sendai, beneath the Pacific Ocean. The shaking lasted approximately 6 minutes. It was caused by movement at the destructive plate margin where the Pacific Plate is being subducted beneath the Eurasian Plate."
+    },
+    {
+      "id": "geo-gcse-earthquakes-017",
+      "q": "Describe two primary effects and two secondary effects of the Sendai 2011 earthquake.",
+      "a": "Primary: around 15,900 people killed (most by the tsunami that followed); approximately 130,000 buildings destroyed and 270,000+ damaged. Secondary: the tsunami flooded the Fukushima Daiichi nuclear power plant, causing meltdowns and a nuclear emergency; widespread fires; mass displacement (around 470,000 people evacuated); economic damage of over US$235 billion.",
+      "hint": "The tsunami caused most of the casualties; the nuclear disaster caused most of the long-term concern.",
+      "explanation": "Sendai is the textbook example of cascading hazards — earthquake triggers tsunami, tsunami triggers nuclear emergency. It is also the costliest natural disaster in history in financial terms, despite Japan's HIC status and excellent preparation."
+    },
+    {
+      "id": "geo-gcse-earthquakes-018",
+      "q": "Why was Japan's death toll from the 2011 earthquake relatively low compared to the size of the event?",
+      "a": "Japan's excellent preparation saved many lives: strict building codes meant most buildings survived the shaking itself; nationwide tsunami warnings were issued within 3 minutes via TV and mobile networks; regular evacuation drills meant the population knew what to do; sea walls protected many areas. However, the tsunami in some places exceeded the defences and gave very little time to reach higher ground — which is why most deaths were drownings rather than from the shaking.",
+      "hint": "Most deaths came from the tsunami, not the shaking itself.",
+      "explanation": "For a magnitude 9.0 quake, around 15,900 deaths is remarkably low — Japan's preparation prevented hundreds of thousands of additional casualties. The lesson is that even the best HIC preparation has limits when faced with exceptional events."
+    },
+    {
+      "id": "geo-gcse-earthquakes-019",
+      "q": "Compare the impacts of the Sendai 2011 earthquake (HIC) with the Nepal 2015 earthquake (LIC).",
+      "a": "Sendai (9.0 magnitude, HIC): around 15,900 deaths despite far greater shaking; economic cost ~US$235 billion (largest ever); rapid evacuation and rebuilding; resilient infrastructure largely held. Nepal (7.8 magnitude, LIC): around 9,000 deaths from a weaker quake; economic cost ~US$10 billion (much higher as % of GDP); slow response due to mountainous terrain and limited resources; poorly-built rural housing collapsed easily; international aid was vital. The comparison shows that a country's wealth, building standards and preparation matter as much as the strength of the quake.",
+      "hint": "Think about magnitude, death toll, economic cost, and the response.",
+      "explanation": "A strong answer pairs each statistic with a reason — Japan's lower death rate per unit magnitude reflects HIC investment in prediction, planning and protection; Nepal's much higher death rate per unit magnitude reflects LIC vulnerability."
+    },
+    {
+      "id": "geo-gcse-earthquakes-020",
+      "q": "'Prediction is the most useful of the 3 Ps for managing earthquake hazards.' To what extent do you agree?",
+      "a": "Disagree to a large extent. Reliable short-term prediction of exact location and time remains impossible — even with sophisticated monitoring, scientists cannot reliably forecast earthquakes more than seconds in advance. As a result, Planning (e.g., emergency drills, education) and Protection (e.g., building codes, infrastructure design) save many more lives. Japan's response to Sendai showed that strict building codes and rapid tsunami warnings (Planning and Protection) saved hundreds of thousands of lives. However, broad probabilistic prediction (identifying high-risk regions over decades) underpins all planning and protection decisions, so the three Ps are interdependent rather than mutually exclusive.",
+      "hint": "How successful has prediction been in practice? Compare with Planning and Protection.",
+      "explanation": "A strong evaluation answer engages with the limits of prediction while recognising its foundational role in hazard mapping. Sendai is ideal because it showcases Planning and Protection saving lives where Prediction couldn't."
+    }
+  ]
+}

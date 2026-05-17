@@ -1,0 +1,147 @@
+{
+  "subject": "Physics",
+  "level": "IGCSE Higher",
+  "topic": "Energy Stores and Transfers",
+  "questions": [
+    {
+      "id": "phys-igcse-energy-stores-001",
+      "q": "What is the SI unit of energy?",
+      "a": "The joule (J).",
+      "hint": "Named after a 19th-century English physicist.",
+      "explanation": "James Prescott Joule first established that mechanical work and heat are interchangeable forms of energy. One joule is the energy transferred when a force of 1 newton moves an object 1 metre in the direction of the force."
+    },
+    {
+      "id": "phys-igcse-energy-stores-002",
+      "q": "List the eight energy stores you should know for IGCSE Physics.",
+      "a": "Chemical, kinetic, gravitational (potential), elastic (potential), thermal, magnetic, electrostatic, and nuclear.",
+      "hint": "Eight stores in total.",
+      "explanation": "These are the official Edexcel categories. Note that 'sound' and 'light' are not stores — they are ways energy is transferred (transfer mechanisms). 'Heat' is also a transfer, not a store; the store is 'thermal'."
+    },
+    {
+      "id": "phys-igcse-energy-stores-003",
+      "q": "List the four ways energy can be transferred.",
+      "a": "Mechanically (by a force doing work); electrically (by a current); by heating; by radiation (light or sound).",
+      "hint": "Four pathways for energy to move.",
+      "explanation": "It is critical to distinguish stores (where energy is) from transfers (how energy moves). For example, kinetic energy is a store; mechanical transfer is the means by which kinetic energy can move between objects."
+    },
+    {
+      "id": "phys-igcse-energy-stores-004",
+      "q": "State the principle of conservation of energy.",
+      "a": "Energy cannot be created or destroyed; it can only be transferred from one store to another or from one object to another. The total energy in a closed system is always constant.",
+      "hint": "Energy goes round, but it never disappears.",
+      "explanation": "This is one of the most important laws in physics. In any process, the total energy at the end equals the total energy at the start — even if some of it has been transferred to less useful forms (like heat into the surroundings)."
+    },
+    {
+      "id": "phys-igcse-energy-stores-005",
+      "q": "What energy transfers happen when a battery powers an LED light?",
+      "a": "Chemical energy store in the battery → transferred electrically through the wires → transferred by light (radiation) and by heating to the surroundings (some is wasted as heat).",
+      "hint": "Start with the store in the battery and follow the energy.",
+      "explanation": "An LED is more efficient than an incandescent bulb because more of the electrical energy is transferred as useful light and less is wasted as heat. But no real device is 100% efficient — some energy is always transferred to less useful stores like thermal energy in the surroundings."
+    },
+    {
+      "id": "phys-igcse-energy-stores-006",
+      "q": "Describe the energy transfers when a falling ball hits the ground.",
+      "a": "While falling: gravitational potential energy store decreases, kinetic energy store increases (transferred mechanically by gravity). On impact: kinetic energy is transferred — partly to thermal energy (the ball and ground get slightly warmer), partly to sound (radiated to the surroundings), and partly to elastic potential energy if the ball deforms or bounces.",
+      "hint": "Follow the energy from start to finish.",
+      "explanation": "If the ball bounces, some kinetic energy is also restored briefly. A real ball never bounces back to the original height because some energy is always lost to thermal energy (in the ball and ground) and to sound, demonstrating conservation: the energy is not destroyed, but transferred to less useful stores."
+    },
+    {
+      "id": "phys-igcse-energy-stores-007",
+      "q": "What is the formula for efficiency?",
+      "a": "efficiency = useful energy output / total energy input (often expressed as a percentage by multiplying by 100).",
+      "hint": "Useful energy out, divided by all the energy that went in.",
+      "explanation": "Equivalent formulations: efficiency = useful power output / total power input. Efficiency is always a fraction between 0 and 1 (or 0% and 100%). No device can be more than 100% efficient — that would break conservation of energy."
+    },
+    {
+      "id": "phys-igcse-energy-stores-008",
+      "q": "A light bulb uses 100 J of electrical energy. 20 J is transferred as light and the rest is transferred as heat to the surroundings. Calculate its efficiency.",
+      "a": "Useful energy output = 20 J (the light). Total energy input = 100 J. Efficiency = 20 / 100 = 0.2 (or 20%).",
+      "hint": "Light is the useful output; heat is wasted.",
+      "explanation": "This is typical of an old-fashioned incandescent bulb. A modern LED achieves around 30-40% efficiency — most of the energy becomes useful light rather than waste heat, which is why LEDs save so much electricity."
+    },
+    {
+      "id": "phys-igcse-energy-stores-009",
+      "q": "What is a Sankey diagram?",
+      "a": "A diagram that shows energy transfers as arrows whose widths are proportional to the amount of energy. The total energy input enters at one end; the arrows split into useful output(s) and wasted output(s), with the widths showing the relative amounts.",
+      "hint": "Arrows with widths proportional to energy.",
+      "explanation": "Sankey diagrams visualise efficiency intuitively. A very narrow 'useful' arrow and a fat 'wasted' arrow show low efficiency at a glance. The total width must be conserved throughout — illustrating conservation of energy."
+    },
+    {
+      "id": "phys-igcse-energy-stores-010",
+      "q": "Describe how thermal energy can be transferred by conduction.",
+      "a": "In a solid material, particles vibrate with kinetic energy. The hotter end of a material has more energetic vibrations. These vibrations are passed from particle to particle through collisions, transferring kinetic (thermal) energy along the material from hot to cold. Metals also use free electrons to transfer energy quickly, which is why they are the best conductors.",
+      "hint": "Energy passed via particle vibrations and (in metals) free electrons.",
+      "explanation": "Conduction is the main way thermal energy moves through solids. Liquids and gases conduct much more slowly because their particles are further apart, with less frequent collisions. Insulators (wood, plastic, air) have few free electrons and weak particle interactions, which is why they conduct poorly."
+    },
+    {
+      "id": "phys-igcse-energy-stores-011",
+      "q": "Describe how thermal energy is transferred by convection.",
+      "a": "In a fluid (liquid or gas), heating one region makes its particles move faster and spread apart, lowering its density. The warmer, less dense fluid rises; cooler, denser fluid sinks to take its place. This creates a circulating convection current that transfers thermal energy through the fluid as warmer regions move upwards and cooler regions move downwards.",
+      "hint": "Hot fluid rises, cold fluid sinks — a circulating current.",
+      "explanation": "Convection only happens in fluids — liquids and gases — because solids can't flow. This is how radiators heat rooms (warm air rises near the radiator and circulates), how weather systems form, and how mantle currents drive plate tectonics."
+    },
+    {
+      "id": "phys-igcse-energy-stores-012",
+      "q": "Describe how thermal energy is transferred by radiation.",
+      "a": "All objects above absolute zero emit infrared radiation (electromagnetic waves). The hotter the object, the more infrared it emits. This radiation can travel through a vacuum (unlike conduction or convection, which need a medium) and is absorbed by other objects, transferring energy to them.",
+      "hint": "Infrared waves — no medium needed.",
+      "explanation": "Thermal radiation is how the Sun heats the Earth across 150 million km of vacuum. Dark, matt surfaces absorb and emit infrared well; light, shiny surfaces reflect it. This is why solar hot-water panels are painted black and why thermos flasks have a shiny silvered lining."
+    },
+    {
+      "id": "phys-igcse-energy-stores-013",
+      "q": "Which colour and texture of surface is best at emitting and absorbing infrared radiation?",
+      "a": "Dark (especially black) and matt surfaces are best at both emitting and absorbing infrared radiation. Light (especially white or silvered) and shiny surfaces are best at reflecting infrared.",
+      "hint": "Dark and matt for absorbing/emitting; light and shiny for reflecting.",
+      "explanation": "A good absorber is also a good emitter (a 'black body' in physics). This is why solar panels are dark and matt — they absorb more sunlight. Conversely, polished metal radiates very little heat, which is exploited in thermos flasks and in spacecraft thermal shielding."
+    },
+    {
+      "id": "phys-igcse-energy-stores-014",
+      "q": "Describe two ways a house can be insulated to reduce energy losses, and explain how each works.",
+      "a": "Loft insulation: a layer of fibreglass or mineral wool in the loft traps air, which is a poor conductor of heat — this reduces conduction and convection losses through the roof. Double-glazed windows: two panes of glass separated by an air or argon gap — the gas reduces conduction, and the small gap reduces convection. Other valid answers: cavity wall insulation, draught excluders, thick curtains, carpets.",
+      "hint": "Each method blocks one or more of: conduction, convection, radiation.",
+      "explanation": "Domestic heat loss in the UK is roughly: roof 25%, walls 35%, windows 10%, floor 15%, doors and gaps 15%. Tackling the loft is the cheapest and most effective single improvement; cavity walls are next. Good insulation reduces both heating costs and carbon emissions."
+    },
+    {
+      "id": "phys-igcse-energy-stores-015",
+      "q": "Describe the energy transfers when a child slides down a slide in a playground.",
+      "a": "At the top: gravitational potential energy store (high). During the slide: gravitational PE decreases, kinetic energy increases (transferred mechanically). Friction between the child and the slide transfers some energy to thermal energy in the slide and in the child's clothing (and a small amount to sound). At the bottom: kinetic energy is at its maximum (but less than the initial GPE because some has been transferred to thermal and sound).",
+      "hint": "GPE → KE, with some wasted to friction.",
+      "explanation": "This is a classic energy conservation question. Total energy is conserved (no energy disappears) but not all of it ends up in the useful store (kinetic). The 'lost' energy is transferred to thermal energy of the slide and to sound — neither of which is useful for accelerating the child."
+    },
+    {
+      "id": "phys-igcse-energy-stores-016",
+      "q": "A motor uses 500 J of electrical energy to lift a load. The load gains 350 J of gravitational potential energy. Calculate the efficiency of the motor, and state where the rest of the energy has gone.",
+      "a": "Efficiency = useful energy out / total energy in = 350 / 500 = 0.7 (or 70%). The wasted 150 J has been transferred to thermal energy (the motor and wires get warmer) and a small amount to sound.",
+      "hint": "Useful output is GPE; total input is the electrical energy.",
+      "explanation": "Electric motors are typically 70-90% efficient — much better than petrol engines (around 25%) but never 100%. The wasted energy mostly becomes thermal energy due to electrical resistance in the windings and friction in moving parts."
+    },
+    {
+      "id": "phys-igcse-energy-stores-017",
+      "q": "Draw or describe a Sankey diagram for a kettle that uses 2000 J of electrical energy to heat water, of which 1800 J usefully heats the water and 200 J is lost to the surroundings.",
+      "a": "Arrow of width 2000 (representing electrical energy in) enters from the left. The arrow splits into two: a wide arrow of width 1800 (useful thermal energy to water) continuing to the right, and a narrower arrow of width 200 (wasted thermal energy to surroundings) going off to the side or downwards. The total width going out (1800 + 200) equals the total width going in (2000), illustrating conservation of energy.",
+      "hint": "Widths represent energies. Useful output big, wasted output smaller.",
+      "explanation": "Efficiency from this Sankey: 1800 / 2000 = 0.9 = 90%. Kettles are among the most efficient household appliances because almost all the electrical energy goes into heating the water — only a small fraction is lost through the casing and as steam. Modern kettles with insulated jackets push this even higher."
+    },
+    {
+      "id": "phys-igcse-energy-stores-018",
+      "q": "Explain why energy is never truly 'lost' even when we call it 'wasted'.",
+      "a": "By the principle of conservation of energy, no energy is ever destroyed — it is only transferred between stores or objects. When we say energy is 'wasted', we mean it has been transferred to a store that isn't useful for our purpose (usually thermal energy in the surroundings). The energy still exists but is spread out so thinly that it cannot be easily harnessed for useful work.",
+      "hint": "Look up 'dissipated' — the energy is spread, not destroyed.",
+      "explanation": "This concept is called 'dissipation' — useful, concentrated energy becomes useless, dispersed energy (usually low-grade thermal energy). Once dissipated, you'd need more energy to gather it back than you'd recover. This is why perpetual motion machines are impossible — every transfer dissipates some energy."
+    },
+    {
+      "id": "phys-igcse-energy-stores-019",
+      "q": "A pendulum swings back and forth, gradually slowing until it stops. Where has its energy gone?",
+      "a": "At the highest points of its swing, the pendulum has maximum gravitational potential energy and zero kinetic energy. As it swings down, GPE is transferred to KE; at the lowest point, KE is maximum. The pendulum gradually slows because air resistance and friction at the pivot transfer some energy as thermal energy to the surrounding air and pivot, and as sound. Over time, all the original GPE is dissipated to thermal energy and sound in the surroundings, and the pendulum stops at its lowest point.",
+      "hint": "Air resistance and friction are the key.",
+      "explanation": "This is a classic example of energy dissipation. The pendulum's energy isn't 'gone' — it's spread out as a tiny increase in temperature of the surrounding air and pivot, far too thin to detect or recover. In a vacuum with a frictionless pivot, the pendulum would swing forever — conservation of energy in its purest form."
+    },
+    {
+      "id": "phys-igcse-energy-stores-020",
+      "q": "A roller coaster car of mass 800 kg is at the top of a 30 m drop. Assuming no energy is lost to friction, calculate its speed at the bottom of the drop. (g = 10 N/kg)",
+      "a": "GPE at top = mgh = 800 × 10 × 30 = 240,000 J. By conservation of energy, this all becomes KE at the bottom: KE = (1/2)mv² = 240,000. So v² = (2 × 240,000) / 800 = 600. Therefore v = √600 ≈ 24.5 m/s.",
+      "hint": "All the GPE becomes KE — equate them and solve for v.",
+      "explanation": "This is a Higher-tier favourite. The technique works for any frictionless GPE → KE conversion. Note we never needed the mass to cancel out — but at higher levels, you'll see that mass actually does cancel in this kind of problem (it appears on both sides), showing that all objects fall at the same rate in a vacuum regardless of mass."
+    }
+  ]
+}

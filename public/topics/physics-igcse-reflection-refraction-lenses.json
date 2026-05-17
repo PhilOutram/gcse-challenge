@@ -1,0 +1,147 @@
+{
+  "subject": "Physics",
+  "level": "IGCSE Higher",
+  "topic": "Reflection, Refraction and Lenses",
+  "questions": [
+    {
+      "id": "phys-igcse-reflection-refraction-001",
+      "q": "What is reflection?",
+      "a": "The bouncing back of a wave from a surface, without the wave passing into the new medium.",
+      "hint": "It's what a mirror does to light.",
+      "explanation": "Reflection happens at every boundary between two media to some extent — even at the surface of a window, some light is reflected back even though most passes through."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-002",
+      "q": "What is the law of reflection?",
+      "a": "The angle of incidence equals the angle of reflection (both measured from the normal to the surface).",
+      "hint": "Both angles are measured from a line perpendicular to the surface.",
+      "explanation": "The normal is an imaginary line at right angles to the surface at the point where the ray hits. Angles are measured from this normal, NOT from the surface itself — a common mistake in exams."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-003",
+      "q": "What is the 'normal' in a ray diagram?",
+      "a": "An imaginary dashed line drawn at right angles (90°) to the surface at the point where the ray strikes.",
+      "hint": "It's perpendicular to the surface at the point of incidence.",
+      "explanation": "The normal is conventionally drawn as a dashed line in ray diagrams. All angles (incidence, reflection, refraction) are measured between rays and this normal — never between rays and the surface."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-004",
+      "q": "What is refraction?",
+      "a": "The change in direction (bending) of a wave when it passes from one medium to another of different optical density, due to a change in the wave's speed.",
+      "hint": "Light bends when it enters glass or water.",
+      "explanation": "Refraction happens because the wave changes speed at the boundary. If the wave enters at an angle, one side enters first, slows first, and the wave bends towards the slower side."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-005",
+      "q": "When light passes from air into glass, which way does it bend, and why?",
+      "a": "The light bends towards the normal, because it slows down as it enters the denser medium (glass).",
+      "hint": "Slower in glass = bends towards normal.",
+      "explanation": "Imagine a car driving from a smooth road onto sand at an angle — the wheel that hits the sand first slows down, pivoting the car towards the sand side. Same principle applies to light at a boundary."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-006",
+      "q": "When light passes from glass into air, which way does it bend?",
+      "a": "The light bends away from the normal, because it speeds up as it enters the less dense medium (air).",
+      "hint": "Faster in air = bends away from normal.",
+      "explanation": "This is the reverse of the previous case. The same logic applies whenever light moves from a denser medium to a less dense one — the angle of refraction is larger than the angle of incidence."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-007",
+      "q": "What is total internal reflection?",
+      "a": "When light travelling in a denser medium hits the boundary with a less dense medium at an angle greater than the critical angle, all the light is reflected back into the denser medium rather than refracting through.",
+      "hint": "All the light bounces back — none escapes.",
+      "explanation": "Two conditions must both be met: (1) the light must be travelling from a denser medium to a less dense one (e.g., glass to air), and (2) the angle of incidence must exceed the critical angle. Used in optical fibres and prismatic periscopes."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-008",
+      "q": "What is the critical angle?",
+      "a": "The angle of incidence at which the angle of refraction is exactly 90° (the refracted ray travels along the boundary). Beyond this angle, total internal reflection occurs.",
+      "hint": "The threshold angle for total internal reflection.",
+      "explanation": "Different materials have different critical angles. For glass-to-air it's about 42°. For diamond-to-air it's about 24° — that's why diamonds sparkle so much; their low critical angle makes total internal reflection happen easily inside the stone, trapping and reflecting light back to your eye."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-009",
+      "q": "Give two everyday uses of total internal reflection.",
+      "a": "Optical fibres (for telecommunications and endoscopes); prismatic periscopes and binoculars (using 45-45-90 prisms to reflect light internally instead of using mirrors).",
+      "hint": "Fibres for the internet; prisms in periscopes.",
+      "explanation": "Optical fibres consist of a glass core surrounded by a glass cladding of lower refractive index. Light hits the core-cladding boundary at angles greater than the critical angle, bouncing along the fibre with very little energy loss — the basis of modern global communications."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-010",
+      "q": "What is the refractive index of a material?",
+      "a": "The ratio of the speed of light in a vacuum (or air) to the speed of light in the material: n = c/v. It also equals sin(i)/sin(r), where i is the angle of incidence in air and r is the angle of refraction in the material.",
+      "hint": "Higher refractive index = light travels slower in that material.",
+      "explanation": "Typical values: air ≈ 1.00, water ≈ 1.33, glass ≈ 1.5, diamond ≈ 2.42. A higher refractive index means light bends more when entering the material — and the critical angle for total internal reflection is correspondingly smaller."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-011",
+      "q": "Light hits a glass block at an angle of incidence of 30°. The refractive index of the glass is 1.5. Calculate the angle of refraction.",
+      "a": "Using n = sin(i) / sin(r): sin(r) = sin(i) / n = sin(30°) / 1.5 = 0.5 / 1.5 = 0.333. So r = sin⁻¹(0.333) ≈ 19.5°.",
+      "hint": "Use n = sin(i)/sin(r), rearrange to find sin(r).",
+      "explanation": "The light bends towards the normal (30° → 19.5°) as it enters the denser glass. The Snell's Law equation (n = sin i / sin r) is examinable at Higher tier and is given on the formula sheet."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-012",
+      "q": "Calculate the critical angle for a glass block with a refractive index of 1.5.",
+      "a": "Critical angle c satisfies sin(c) = 1/n = 1/1.5 = 0.667. So c = sin⁻¹(0.667) ≈ 41.8°.",
+      "hint": "Use sin(c) = 1/n.",
+      "explanation": "Above 41.8° (measured from the normal), light inside the glass cannot escape into the air and will be totally internally reflected. This is the basis of optical fibre operation."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-013",
+      "q": "What is a converging (convex) lens?",
+      "a": "A lens that is thicker in the middle than at the edges. It refracts parallel rays of light so that they converge to meet at a single point called the principal focus (or focal point).",
+      "hint": "Thicker in the middle; light rays come together.",
+      "explanation": "Magnifying glasses and the lenses in a camera or human eye are converging lenses. The principal focus is on the opposite side of the lens from where parallel light enters. The distance from the lens to the principal focus is the focal length."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-014",
+      "q": "What is a diverging (concave) lens?",
+      "a": "A lens that is thinner in the middle than at the edges. It refracts parallel rays so that they appear to spread out from a point behind the lens — the principal focus is therefore on the same side as the incoming light.",
+      "hint": "Thinner in the middle; light rays spread apart.",
+      "explanation": "Used in glasses for short-sightedness (myopia). The principal focus of a diverging lens is virtual — the light doesn't actually pass through it; the diverging rays only appear to come from there if extended backwards."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-015",
+      "q": "What is the principal focus (focal point) of a converging lens?",
+      "a": "The point on the principal axis where parallel rays of light, after passing through the lens, all converge to a single point.",
+      "hint": "Where parallel rays meet up after refraction.",
+      "explanation": "Each lens has two principal focal points, one on each side, equidistant from the lens. The focal length f is the distance from the centre of the lens to the principal focus."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-016",
+      "q": "What type of image is formed when an object is placed beyond the focal length (2f) of a converging lens?",
+      "a": "Real, inverted, and diminished (smaller than the object). The image is formed on the opposite side of the lens to the object, between f and 2f.",
+      "hint": "Think about a camera: distant objects form smaller, inverted images.",
+      "explanation": "This is how a camera works — distant objects (beyond 2f) form real, inverted, diminished images on the sensor. The 'real' means the image actually forms in space and could be projected onto a screen; 'inverted' means upside-down."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-017",
+      "q": "What type of image is formed when an object is placed between a converging lens and its focal point?",
+      "a": "Virtual, upright, and magnified (larger than the object). The image appears on the same side as the object.",
+      "hint": "Think about using a magnifying glass.",
+      "explanation": "This is the magnifying-glass configuration: an object closer to the lens than f produces an enlarged, upright virtual image. 'Virtual' means the image doesn't actually exist in space and can't be projected onto a screen — it only appears to be there when you look through the lens."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-018",
+      "q": "Describe how to draw a ray diagram for a converging lens forming an image of an object placed beyond 2f.",
+      "a": "Draw the lens, principal axis, and mark f and 2f on each side. Draw the object as an arrow above the principal axis beyond 2f. From the top of the object, draw two rays: (1) a ray parallel to the principal axis, which refracts through the lens and passes through the principal focus on the far side; (2) a ray straight through the centre of the lens, which passes through undeviated. Where these two rays meet on the far side is the location of the top of the image — draw an arrow downwards from this point to the principal axis. This shows the image as real, inverted, and diminished, between f and 2f.",
+      "hint": "Parallel ray then through-focus, and centre ray straight through.",
+      "explanation": "Two rays from the top of the object are enough to locate the image. A third ray — through the principal focus on the same side as the object, which then emerges parallel to the principal axis — can be added to confirm the image position. The same construction works for any object position, just with appropriate adjustments."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-019",
+      "q": "What is the magnification of a lens, and how is it calculated?",
+      "a": "Magnification is the ratio of the height of the image to the height of the object: magnification = image height / object height. A magnification greater than 1 means the image is larger than the object; less than 1 means smaller. It has no units (it's a ratio).",
+      "hint": "Image height divided by object height.",
+      "explanation": "An equivalent formula sometimes used at Higher tier is magnification = image distance / object distance. Note that magnification doesn't tell you whether the image is real or virtual, upright or inverted — those depend on the geometry of the ray diagram."
+    },
+    {
+      "id": "phys-igcse-reflection-refraction-020",
+      "q": "An object of height 5 cm is placed in front of a converging lens. The image produced is real, inverted, and 15 cm tall. Calculate the magnification, and state two other characteristics you can deduce about where the object was placed.",
+      "a": "Magnification = image height / object height = 15 / 5 = 3. As the image is magnified and inverted but real, the object must be placed between f and 2f from the lens (the only object position that gives a magnified, inverted, real image). The image will therefore be formed beyond 2f on the opposite side of the lens.",
+      "hint": "Magnification is just a ratio; the type of image tells you where the object is.",
+      "explanation": "Higher-tier questions often combine numerical calculation with reasoning about image type. Memorise the four key cases: object beyond 2f (diminished, real, inverted); object at 2f (same size, real, inverted); object between f and 2f (magnified, real, inverted); object closer than f (magnified, virtual, upright)."
+    }
+  ]
+}

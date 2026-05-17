@@ -1,0 +1,147 @@
+{
+  "subject": "Physics",
+  "level": "IGCSE Higher",
+  "topic": "Work, Power and Efficiency",
+  "questions": [
+    {
+      "id": "phys-igcse-work-power-001",
+      "q": "Define work done in physics.",
+      "a": "The energy transferred when a force moves an object through a distance in the direction of the force. Work done = energy transferred (in joules).",
+      "hint": "Force × distance — but it's also a form of energy transfer.",
+      "explanation": "Work is one of the four ways energy is transferred (mechanically, by a force doing work). Saying 'work is done' on an object is equivalent to saying 'energy is transferred' to that object."
+    },
+    {
+      "id": "phys-igcse-work-power-002",
+      "q": "Write the equation for work done, and state the units of each quantity.",
+      "a": "Work done = force × distance moved in direction of force. W = F × d. Units: W in joules (J); F in newtons (N); d in metres (m).",
+      "hint": "W equals F times d.",
+      "explanation": "1 joule = 1 newton × 1 metre. Work and energy share the same unit because work is one way of transferring energy. Be careful: distance must be measured in the direction of the force — if you push horizontally and the object moves horizontally, the full distance counts; if it moves vertically, no work is done by your horizontal push."
+    },
+    {
+      "id": "phys-igcse-work-power-003",
+      "q": "Define power.",
+      "a": "The rate of doing work — how much work is done (or energy transferred) per second. Power = work done / time taken.",
+      "hint": "Energy per unit time.",
+      "explanation": "Two devices can do the same work, but the one that does it in less time is the more powerful. A weightlifter and a small child might both lift the same object eventually — the weightlifter does it faster and so has more power."
+    },
+    {
+      "id": "phys-igcse-work-power-004",
+      "q": "Write the equation for power, and state its unit.",
+      "a": "Power = work done / time taken. P = W / t. Unit: watt (W), where 1 watt = 1 joule per second.",
+      "hint": "Watts equal joules per second.",
+      "explanation": "Confusingly, W is used both for 'work' and 'watts' — context tells you which. The equation can also be written P = E/t, where E is energy transferred. A 100W bulb transfers 100 J of energy every second."
+    },
+    {
+      "id": "phys-igcse-work-power-005",
+      "q": "A person pushes a box with a force of 50 N along the floor for 10 m. Calculate the work done.",
+      "a": "W = F × d = 50 × 10 = 500 J.",
+      "hint": "Use W = F × d.",
+      "explanation": "Straightforward substitution. The box gains 500 J of energy — though some of this may be transferred to thermal energy through friction, so it doesn't all become kinetic energy of the box."
+    },
+    {
+      "id": "phys-igcse-work-power-006",
+      "q": "A motor does 600 J of work in 30 seconds. Calculate its power.",
+      "a": "P = W / t = 600 / 30 = 20 W.",
+      "hint": "Power equals work divided by time.",
+      "explanation": "20 W is roughly the power of a small motor — for example, a low-power fan. Compare with a kettle (~2000 W) or a microwave (~800 W) for scale."
+    },
+    {
+      "id": "phys-igcse-work-power-007",
+      "q": "How much work is done by gravity when a 5 kg book falls from a shelf 2 m high? (g = 10 N/kg)",
+      "a": "The force of gravity on the book = weight = mg = 5 × 10 = 50 N. The book falls a distance of 2 m in the direction of this force. Work done = F × d = 50 × 2 = 100 J.",
+      "hint": "First find the weight, then use W = F × d.",
+      "explanation": "Note that this 100 J is also the GPE lost by the book — which becomes the book's KE just before it hits the floor (ignoring air resistance). Work done by a force equals the energy transferred."
+    },
+    {
+      "id": "phys-igcse-work-power-008",
+      "q": "A weightlifter lifts a 100 kg barbell to a height of 2 m in 1.5 seconds. Calculate the power they generate. (g = 10 N/kg)",
+      "a": "Force needed = weight = mg = 100 × 10 = 1000 N. Work done = F × d = 1000 × 2 = 2000 J. Power = W / t = 2000 / 1.5 ≈ 1333 W (or about 1.3 kW).",
+      "hint": "Find the force, then the work, then the power.",
+      "explanation": "A multi-step calculation typical of Higher-tier exams. For context, a healthy adult can briefly sustain about 1000-2000 W of mechanical power (an elite cyclist might sustain ~400 W for hours but can peak at over 2000 W in a sprint). The weightlifter's power output is impressive but brief."
+    },
+    {
+      "id": "phys-igcse-work-power-009",
+      "q": "A force of 80 N is applied to push a crate, but the crate doesn't move. How much work is done?",
+      "a": "Zero. Work done = F × d, and if d = 0, then work done is zero — no matter how hard you push.",
+      "hint": "Distance moved is zero — what does that make the work?",
+      "explanation": "This counter-intuitive result follows from the definition. In everyday language we might say 'I worked hard to push that crate', but in physics, no work is done because no energy has been transferred to the crate (it didn't move). Energy was certainly used by the person, but it went into thermal energy in muscles, not into the crate."
+    },
+    {
+      "id": "phys-igcse-work-power-010",
+      "q": "Explain why no work is done by the force of gravity on a satellite in a circular orbit, even though gravity is pulling on it.",
+      "a": "The force of gravity acts towards the centre of the orbit, while the satellite moves perpendicular to this force (along its circular path). Since work done depends on distance moved IN THE DIRECTION of the force, and the satellite has no displacement towards the centre, no work is done. This is why a satellite can orbit indefinitely without losing or gaining energy: gravity keeps changing its direction but never speeds it up or slows it down.",
+      "hint": "What's the direction of gravity vs the direction the satellite moves?",
+      "explanation": "This is a subtle Higher-tier conceptual point. Force and motion must be parallel (or at least have a parallel component) for work to be done. Perpendicular forces — like the centripetal force of gravity on a circular orbit — do no work."
+    },
+    {
+      "id": "phys-igcse-work-power-011",
+      "q": "Write the equation for efficiency, both in terms of energy and in terms of power.",
+      "a": "Efficiency = useful energy output / total energy input, or equivalently efficiency = useful power output / total power input. Often multiplied by 100 to express as a percentage.",
+      "hint": "Useful out, divided by all in. Can be done in energy or in power.",
+      "explanation": "Both forms work because power is just energy per unit time. Use whichever the question gives you data for. Efficiency has no units (it's a ratio); it's always between 0 and 1 (or 0% and 100%)."
+    },
+    {
+      "id": "phys-igcse-work-power-012",
+      "q": "A petrol car's engine takes in 10,000 J of chemical energy from petrol. Only 2,500 J is converted to useful kinetic energy of the car. Calculate the efficiency of the engine.",
+      "a": "Efficiency = useful energy out / total energy in = 2500 / 10,000 = 0.25 (or 25%).",
+      "hint": "Useful output is the kinetic energy; total input is the chemical energy.",
+      "explanation": "Petrol engines are typically 20-30% efficient — most of the energy in petrol becomes waste heat (engine block warming, exhaust gases, etc.). Electric motors and modern hybrids are much more efficient (60-90%), which is a major reason for the move to electric vehicles."
+    },
+    {
+      "id": "phys-igcse-work-power-013",
+      "q": "An electric heater uses 2000 J of electrical energy. 1850 J becomes useful thermal energy in the room; the rest is lost. Calculate the efficiency and the energy wasted.",
+      "a": "Efficiency = 1850 / 2000 = 0.925 (or 92.5%). Energy wasted = 2000 - 1850 = 150 J.",
+      "hint": "Wasted energy is just total minus useful.",
+      "explanation": "Electric heaters are very efficient at producing thermal energy — practically all the electrical energy becomes thermal energy somewhere. The 'lost' energy in this case is thermal energy that leaks out through the building rather than warming the intended room."
+    },
+    {
+      "id": "phys-igcse-work-power-014",
+      "q": "A power station produces 800 MW of electrical power but uses fuel that provides 2400 MW of chemical power. Calculate the efficiency of the power station.",
+      "a": "Efficiency = useful power out / total power in = 800 / 2400 = 0.333 (or 33.3%).",
+      "hint": "Useful output is electrical; total input is the chemical power of the fuel.",
+      "explanation": "33% is typical for a coal or gas power station — most of the energy in the fuel becomes heat (which goes up the chimney as hot gases, or into cooling water). This is why coal stations have such large cooling towers. Modern combined-cycle gas plants can reach 60% efficiency by reusing waste heat."
+    },
+    {
+      "id": "phys-igcse-work-power-015",
+      "q": "Explain why no real machine can be more than 100% efficient.",
+      "a": "By the principle of conservation of energy, energy can never be created. The useful energy output of any machine can therefore never exceed the total energy input — at best, all of the input energy becomes useful output (100% efficient). In practice, some energy is always transferred to less useful stores (usually thermal energy in the surroundings) due to friction, electrical resistance, or other unavoidable processes — so real efficiencies are always less than 100%.",
+      "hint": "Conservation of energy forbids creating energy.",
+      "explanation": "Any device claiming to be more than 100% efficient (a 'perpetual motion machine' or 'over-unity device') is breaking conservation of energy and cannot exist. Inventors who claim this either make measurement errors or are dishonest — physicists are immediately sceptical."
+    },
+    {
+      "id": "phys-igcse-work-power-016",
+      "q": "A lift motor has a power output of 1500 W. How much work can it do in 1 minute?",
+      "a": "Power = work / time, so work = power × time. Time = 60 s. Work = 1500 × 60 = 90,000 J (90 kJ).",
+      "hint": "Rearrange P = W/t to give W = P × t. Convert time to seconds.",
+      "explanation": "90,000 J is enough to lift a 100 kg person about 90 m (since GPE = mgh = 100 × 10 × 90 = 90,000 J). In practice, the lift won't be 100% efficient — some power is lost to friction and the motor's own thermal losses."
+    },
+    {
+      "id": "phys-igcse-work-power-017",
+      "q": "Two students climb the same staircase, doing 12,000 J of work. Student A takes 30 seconds; Student B takes 60 seconds. Compare their powers, and explain why they do the same work.",
+      "a": "Student A: P = W/t = 12,000 / 30 = 400 W. Student B: P = W/t = 12,000 / 60 = 200 W. Student A has twice the power of Student B. They do the same work because work depends only on force and distance (both lifted their body the same height) — not on time. The faster student is more powerful (does the same work in less time) but doesn't do more work.",
+      "hint": "Work depends on force × distance, not time. Power depends on time.",
+      "explanation": "This is a classic conceptual question. The point is to distinguish between work (a fixed amount of energy transferred) and power (the rate at which that energy is transferred). Two cars can do the same work driving up a hill — the more powerful one does it faster."
+    },
+    {
+      "id": "phys-igcse-work-power-018",
+      "q": "A drill is rated at 600 W. If 480 W is the useful power output (mechanical work on the wood), calculate the efficiency and explain where the 'lost' power goes.",
+      "a": "Efficiency = 480 / 600 = 0.8 (or 80%). The wasted 120 W is transferred to: thermal energy (the drill bit, motor, and wood get warm from friction); sound energy (the drill is noisy); a small amount to vibration (felt in the hand).",
+      "hint": "Wasted power = total - useful. Then think where it physically goes.",
+      "explanation": "When working with power tools, you can feel the wasted power directly — the motor casing warms up, the bit gets hot, the noise is significant. Heavy use of a drill over hours can build up enough heat to damage the motor, which is why power tools have ventilation slots and duty-cycle limits."
+    },
+    {
+      "id": "phys-igcse-work-power-019",
+      "q": "A man pushes a 30 kg lawn mower 20 m across his lawn, with a horizontal force of 60 N. He takes 25 seconds. Calculate: (a) the work he does, and (b) his power.",
+      "a": "(a) Work done = F × d = 60 × 20 = 1200 J. (b) Power = W / t = 1200 / 25 = 48 W.",
+      "hint": "Find the work first, then divide by time to find power.",
+      "explanation": "A sustainable working power for an adult is around 50-100 W over long periods — about right for steady gardening or walking. Higher power outputs (like running up stairs) can't be sustained for very long before fatigue sets in."
+    },
+    {
+      "id": "phys-igcse-work-power-020",
+      "q": "A car with a 70 kW engine accelerates a 1200 kg load up a 15° slope at constant 10 m/s. If the efficiency of the engine is 25%, what fraction of the engine's power is going into useful work against gravity, and what does this tell you about the rest? (Higher-tier extension — sin 15° ≈ 0.26; g = 10 N/kg)",
+      "a": "Component of gravity along slope = mg sin θ = 1200 × 10 × 0.26 = 3120 N. To climb at 10 m/s, the engine must provide useful mechanical power = force × velocity = 3120 × 10 = 31,200 W = 31.2 kW. Engine's total power input from fuel = 70 / 0.25 = 280 kW. Fraction going into useful work against gravity = 31.2 / 280 ≈ 11%. The rest (89%) is lost: 70 kW useful mechanical output minus 31.2 kW going up the slope = ~39 kW going to friction and air resistance; the remaining 210 kW is lost in the engine as waste heat. This shows how very inefficient petrol cars are — only a tiny fraction of the fuel's chemical energy actually lifts the car.",
+      "hint": "Multi-step: find force, find useful power, then compare with the input.",
+      "explanation": "An extreme Higher-tier question, combining trigonometry with work, power, and efficiency. The takeaway is striking: even though the engine is doing real useful work, the bulk of the fuel energy becomes waste heat in the engine and friction losses. This is one of the strongest practical arguments for electric vehicles."
+    }
+  ]
+}

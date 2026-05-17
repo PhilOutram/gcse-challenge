@@ -3,7 +3,9 @@
     "allow": [
       "Bash(git init *)",
       "Bash(git remote *)",
-      "Bash(curl -s http://localhost:5176/topics/manifest.json)"
+      "Bash(curl -s http://localhost:5176/topics/manifest.json)",
+      "Bash(git stash *)",
+      "Bash(node node_modules/typescript/bin/tsc -b)"
     ]
   }
 }

@@ -1,0 +1,147 @@
+{
+  "subject": "Geography",
+  "level": "GCSE",
+  "topic": "Tropical Storms",
+  "questions": [
+    {
+      "id": "geo-gcse-tropical-storms-001",
+      "q": "In which regions of the world do tropical storms form?",
+      "a": "Between approximately 5° and 30° latitude north and south of the equator, over warm tropical oceans.",
+      "hint": "They form between the tropics, but not right at the equator.",
+      "explanation": "The latitude limits matter: too close to the equator and there is no Coriolis force to make the storm spin; too far from the equator and the sea surface is too cool to provide enough energy."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-002",
+      "q": "What is a tropical storm called in the Atlantic Ocean?",
+      "a": "A hurricane.",
+      "hint": "Think of names like Ida, Katrina or Sandy.",
+      "explanation": "Different names by region: hurricane (Atlantic and East Pacific), typhoon (West Pacific), cyclone (Indian Ocean and around Australia). They are the same physical phenomenon."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-003",
+      "q": "What minimum sea surface temperature is needed for a tropical storm to form?",
+      "a": "Approximately 27°C (sometimes given as 26.5°C).",
+      "hint": "Warm enough to swim in comfortably for hours.",
+      "explanation": "The warm water provides the energy source for the storm. Tropical storms only form during the warmer months over the warmest patches of ocean, which is why hurricane season runs roughly June to November in the Atlantic."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-004",
+      "q": "What is the 'eye' of a tropical storm?",
+      "a": "The calm centre of the storm, with very low pressure, clear skies and only light winds.",
+      "hint": "It's the eerily quiet middle of the storm.",
+      "explanation": "People are sometimes caught out when the eye passes overhead, thinking the storm has ended. They then face the destructive eyewall again from the opposite direction as the storm continues moving."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-005",
+      "q": "What scale is used to measure the strength of tropical storms in the Atlantic?",
+      "a": "The Saffir-Simpson scale (categories 1 to 5, based on sustained wind speeds).",
+      "hint": "Five categories, with 5 being the most severe.",
+      "explanation": "Category 1 starts at 74 mph sustained winds; Category 5 is 157 mph or higher. The scale doesn't account directly for storm surge or rainfall, which often cause the most deaths."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-006",
+      "q": "List four conditions required for tropical storm formation.",
+      "a": "Warm sea surface temperature above 27°C; warm water extending to a depth of at least 60m; latitude between 5° and 30° from the equator (for Coriolis effect); low wind shear in the upper atmosphere; high humidity / moist rising air; an initial atmospheric disturbance to trigger formation.",
+      "hint": "Think about heat, water depth, latitude and atmosphere.",
+      "explanation": "Missing any one condition prevents formation. This is why tropical storms are restricted to particular regions and particular seasons — and why even strong tropical waves often fail to develop into hurricanes."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-007",
+      "q": "What role does the Coriolis effect play in tropical storm formation?",
+      "a": "It deflects moving air, causing the rising air column to spin and develop the characteristic spiral structure. Without the Coriolis effect, no organised rotating storm can form.",
+      "hint": "It's the Earth's rotation creating an apparent deflecting force.",
+      "explanation": "The Coriolis effect deflects moving air to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This generates the spin that turns a tropical disturbance into an organised storm."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-008",
+      "q": "In which direction do tropical storms rotate in the Northern Hemisphere, and why?",
+      "a": "Counter-clockwise (anti-clockwise), because the Coriolis effect deflects moving air to the right in the Northern Hemisphere.",
+      "hint": "Opposite direction to the Southern Hemisphere.",
+      "explanation": "In the Southern Hemisphere they rotate clockwise. Satellite photos of tropical storms can be used to identify which hemisphere they're in based on their spin direction alone."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-009",
+      "q": "Why do tropical storms not form within 5° of the equator?",
+      "a": "The Coriolis effect is too weak at the equator to make the air rotate, so no organised spinning storm system can develop.",
+      "hint": "The Coriolis force is zero at the equator itself.",
+      "explanation": "This is why countries directly on the equator (such as Singapore or coastal Ecuador) experience heavy tropical rainfall but never tropical storms — there's no spin."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-010",
+      "q": "What is the difference between the eye and the eyewall of a tropical storm?",
+      "a": "The eye is the calm, low-pressure centre with light winds and often clear skies. The eyewall is the ring of intense thunderstorms surrounding the eye, where winds and rainfall are at their most extreme.",
+      "hint": "One is the calm centre, the other is the most violent part.",
+      "explanation": "As a storm passes over you, you'd experience: leading eyewall (worst conditions), eye (sudden calm and clearing), trailing eyewall (worst conditions again from the opposite direction), then progressive weakening."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-011",
+      "q": "Why do tropical storms weaken when they make landfall?",
+      "a": "They lose their source of energy (warm ocean water), and friction with the rougher land surface slows the rotation and disrupts the storm's structure.",
+      "hint": "What did the storm need to form in the first place?",
+      "explanation": "This is why coastal areas suffer the worst damage, while inland regions usually experience a weakening tropical depression with mainly rainfall and flooding rather than catastrophic wind."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-012",
+      "q": "How might climate change affect tropical storms in the future?",
+      "a": "Warmer oceans provide more energy, so storms are likely to be more intense (higher categories more often) and produce heavier rainfall. The geographical range over which they can form may expand. Frequency may not increase greatly, but destructiveness probably will.",
+      "hint": "Warmer oceans store and release more energy.",
+      "explanation": "Hurricane Ida was a clear example — the Gulf of Mexico recorded some of its warmest temperatures on record in 2021, fuelling Ida's rapid intensification from a tropical storm to Category 4 in just over a day."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-013",
+      "q": "Give three primary effects of a tropical storm.",
+      "a": "Strong winds destroy buildings and infrastructure; heavy rainfall causes immediate flooding; storm surges flood coastal areas; people are killed or injured by flying debris, collapsing structures, or drowning.",
+      "hint": "Primary = immediate physical damage caused directly by the storm.",
+      "explanation": "Storm surge often causes most of the deaths in major hurricanes — low-lying coastal areas can be inundated by several metres of seawater driven inland by the storm's winds and low pressure."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-014",
+      "q": "Give three secondary effects of a tropical storm.",
+      "a": "Outbreaks of waterborne disease from contaminated water supplies; food and clean water shortages; long-term homelessness; economic damage and unemployment; loss of crops and livestock; mental health impacts on survivors.",
+      "hint": "These follow on from the immediate physical damage.",
+      "explanation": "In LICs especially, secondary effects (particularly disease, food insecurity and economic collapse) can prolong the human suffering for years after the storm itself has passed."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-015",
+      "q": "What is a storm surge?",
+      "a": "A rapid rise in sea level caused by the combination of very low atmospheric pressure (which allows the sea to rise) and strong onshore winds (which pile water against the coast). It pushes a 'wall' of seawater inland, causing severe coastal flooding.",
+      "hint": "It's not the storm's rain — it's the sea being pushed inland.",
+      "explanation": "Lower air pressure literally allows the sea surface to rise by about 1 cm per millibar of pressure drop; then winds drive the elevated water against the shore. Often the deadliest aspect of a tropical storm."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-016",
+      "q": "When and where did Hurricane Ida make landfall, and what category was it?",
+      "a": "On 29 August 2021 (exactly 16 years after Hurricane Katrina), near Port Fourchon, Louisiana, USA, as a Category 4 hurricane with sustained winds of 150 mph (240 km/h).",
+      "hint": "It struck Louisiana, an HIC, on a famous anniversary.",
+      "explanation": "Ida formed in the Caribbean, intensified rapidly over the warm Gulf of Mexico, and became one of the most powerful storms to strike the US in the 21st century. It later weakened to a tropical depression but still caused major flooding as far north as New York."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-017",
+      "q": "Describe two primary effects and two secondary effects of Hurricane Ida (2021).",
+      "a": "Primary: a storm surge of up to 14 feet (~4.3m) flooded coastal Louisiana, especially around Port Fourchon; sustained 150 mph winds destroyed homes and the entire power grid for New Orleans, leaving around 1 million people without electricity; approximately 95 people killed (including later flooding deaths in the north-east USA). Secondary: lengthy power outages caused heat-related deaths; widespread damage to oil and gas infrastructure disrupted national fuel supplies; estimated total economic damage of over US$75 billion; long recovery for coastal communities and small towns inland.",
+      "hint": "Storm surge, power loss, economic damage, deaths.",
+      "explanation": "Although Ida was a Category 4 hurricane (similar to Katrina), the death toll was far lower because flood defences in New Orleans — rebuilt after Katrina — held this time, and evacuation systems worked. This shows the value of long-term planning in an HIC."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-018",
+      "q": "How did Hurricane Ida (2021) demonstrate both the strengths and weaknesses of HIC preparation for tropical storms?",
+      "a": "Strengths: post-Katrina flood defences in New Orleans held; advanced forecasting gave several days' warning, allowing evacuations; emergency services responded quickly; FEMA and federal aid mobilised rapidly; total death toll (~95) was very low for a Category 4 storm. Weaknesses: the entire New Orleans power grid failed, leaving 1 million without electricity for over a week and causing deaths from heat exposure; rapid intensification (tropical storm to Category 4 in 36 hours) left little time for some preparations; remnants caused unexpected severe flooding hundreds of miles north in New York and New Jersey; total economic damage of over US$75 billion is still huge despite preparation.",
+      "hint": "What did Louisiana do well, and what still went badly?",
+      "explanation": "Ida is a useful modern HIC case study because it shows that even excellent preparation doesn't prevent all damage — particularly from rapidly intensifying storms in a warming climate. It also shows how the same storm can affect very different regions (Gulf Coast vs north-east USA)."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-019",
+      "q": "Compare the impacts of Hurricane Ida (2021, HIC) with Typhoon Haiyan (2013, LIC).",
+      "a": "Ida (Category 4, HIC): around 95 deaths; ~US$75 billion damage; widespread power outages; rapid government and federal response; advanced warning systems and post-Katrina flood defences saved many lives. Haiyan (Category 5, LIC): over 6,300 deaths; ~US$2.9 billion damage but devastating as a share of national GDP; 4 million people displaced; a 5m storm surge devastated Tacloban; slow response; widespread food, water and disease problems in the months afterwards. The same physical hazard produced a far worse human disaster in the LIC, primarily because of poorer building standards, weaker warning systems, and less capacity to respond and rebuild.",
+      "hint": "Think about deaths, displacement, economic damage (absolute and relative), and recovery.",
+      "explanation": "Physical hazards are equally distributed by geography, but disasters are unequally distributed by wealth. Reducing vulnerability — through building codes, warning systems and emergency planning — is often more effective than trying to reduce the hazard itself."
+    },
+    {
+      "id": "geo-gcse-tropical-storms-020",
+      "q": "'Tropical storms have a far greater human impact than earthquakes.' Discuss this statement.",
+      "a": "Tropical storms typically affect larger areas and provide several days' warning, allowing evacuation; earthquakes strike with no warning. Death tolls vary by event: Hurricane Ida killed around 95 and Typhoon Haiyan around 6,300, but the 2010 Haiti earthquake killed an estimated 230,000 and the 2004 Indian Ocean tsunami (triggered by an undersea earthquake) killed a similar number. Tropical storms tend to cause more frequent moderate disasters; earthquakes can occasionally cause catastrophic single events. The 'greater impact' claim depends on which events are compared and whether you measure deaths, displacement, economic loss or recovery time. A balanced conclusion would note that both can be devastating, and that the human impact depends more on vulnerability and preparation than on the type of hazard.",
+      "hint": "Consider deaths, displacement, economic damage, and recovery time.",
+      "explanation": "Evaluation questions reward balanced comparison. A strong answer uses specific examples on both sides and arrives at a nuanced conclusion that addresses complexity rather than a simple agree/disagree."
+    }
+  ]
+}

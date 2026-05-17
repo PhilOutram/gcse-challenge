@@ -1,0 +1,147 @@
+{
+  "subject": "Geography",
+  "level": "GCSE",
+  "topic": "Volcanic Eruptions",
+  "questions": [
+    {
+      "id": "geo-gcse-volcanoes-001",
+      "q": "What is a volcano?",
+      "a": "An opening in the Earth's crust through which magma, ash and gases erupt onto the surface.",
+      "hint": "It's a way for material to escape from beneath the crust.",
+      "explanation": "Volcanoes form in places where the crust is weakened or pierced — typically at plate margins or hot spots. Once magma reaches the surface it is called lava."
+    },
+    {
+      "id": "geo-gcse-volcanoes-002",
+      "q": "What is the difference between magma and lava?",
+      "a": "Magma is molten rock beneath the Earth's surface. Lava is the same molten rock once it has reached the surface and erupted from a volcano.",
+      "hint": "Same material — what changes is where it is.",
+      "explanation": "The temperature and chemical composition matter. As magma rises, dissolved gases escape, which can drive explosive eruptions. The behaviour at the surface depends heavily on the magma's silica content and viscosity."
+    },
+    {
+      "id": "geo-gcse-volcanoes-003",
+      "q": "At which two types of plate margin are most volcanoes found?",
+      "a": "Constructive (divergent) and destructive (convergent) margins.",
+      "hint": "They aren't usually found at conservative margins.",
+      "explanation": "Volcanoes don't typically form at conservative margins because no new crust is being created and no subduction is happening — there's no magma generation. They are also occasionally found at hot spots far from plate boundaries (e.g., Hawaii)."
+    },
+    {
+      "id": "geo-gcse-volcanoes-004",
+      "q": "What is the Ring of Fire?",
+      "a": "A horseshoe-shaped zone around the Pacific Ocean that contains around 75% of the world's active volcanoes and a similar share of earthquakes, caused by the many destructive plate margins along the Pacific Plate's boundaries.",
+      "hint": "It encircles the Pacific Ocean.",
+      "explanation": "The Ring of Fire includes the western coasts of North and South America, Japan, the Philippines, Indonesia, and New Zealand. It is a textbook example of the link between plate tectonics and volcanic and seismic activity."
+    },
+    {
+      "id": "geo-gcse-volcanoes-005",
+      "q": "What are the two main types of volcano based on shape and eruption style?",
+      "a": "Shield volcanoes (broad, gently sloping, fluid lava, less explosive) and composite/strato volcanoes (steep-sided, layered ash and lava, more explosive).",
+      "hint": "Think gently sloping vs steep and explosive.",
+      "explanation": "Shield volcanoes (e.g., Mauna Loa in Hawaii) form from basaltic lava that flows easily. Composite volcanoes (e.g., Mount Fuji, Mount St Helens) form from more viscous andesitic lava that traps gases, causing dramatic explosive eruptions."
+    },
+    {
+      "id": "geo-gcse-volcanoes-006",
+      "q": "Explain why volcanoes form at constructive plate margins.",
+      "a": "As two plates move apart, the pressure on the mantle beneath is reduced, causing the mantle rock to partially melt. The resulting magma rises up through the gap between the plates and erupts at the surface, creating new crust and shield-type volcanoes.",
+      "hint": "Pressure release causes mantle melting.",
+      "explanation": "Iceland sits directly on the Mid-Atlantic Ridge between the North American and Eurasian Plates. Eyjafjallajökull is one of many volcanoes formed by exactly this process. The lava produced is typically basaltic — runny and not very explosive."
+    },
+    {
+      "id": "geo-gcse-volcanoes-007",
+      "q": "Explain why volcanoes form at destructive plate margins.",
+      "a": "When dense oceanic crust subducts beneath continental crust, friction and intense heat at depth, combined with water released from the descending plate, cause the overlying mantle to partially melt. The resulting magma rises through the continental crust and forms steep, explosive composite volcanoes.",
+      "hint": "Subduction, water, partial melting.",
+      "explanation": "This is why volcanoes along the Andes (Pacific Plate subducting under South American Plate) and along the Pacific 'Ring of Fire' tend to be steep, explosive composite volcanoes rather than gently sloping shield volcanoes."
+    },
+    {
+      "id": "geo-gcse-volcanoes-008",
+      "q": "What is a hot spot, and how does it cause volcanoes far from plate boundaries?",
+      "a": "A hot spot is a fixed plume of unusually hot mantle material rising from deep within the Earth. As a tectonic plate moves slowly over the stationary plume, magma burns through the crust, forming a chain of volcanoes — with the newest volcano directly over the hot spot and older ones progressively further away.",
+      "hint": "The plume stays still while the plate moves over it.",
+      "explanation": "The Hawaiian Islands are the classic example: each island is an extinct volcano that was formed over the hot spot before the Pacific Plate carried it away. Currently the 'Big Island' of Hawaii is over the hot spot and still volcanically active."
+    },
+    {
+      "id": "geo-gcse-volcanoes-009",
+      "q": "Give three primary effects of a volcanic eruption.",
+      "a": "Lava flows destroy buildings, roads and farmland; ash falls damage infrastructure and crops; pyroclastic flows (fast-moving clouds of hot ash, gas and rock) destroy everything in their path; people killed or injured directly by lava, ash or pyroclastic flows.",
+      "hint": "Direct, immediate physical damage from the eruption itself.",
+      "explanation": "Pyroclastic flows are the deadliest volcanic hazard — they travel at over 100 km/h at temperatures of several hundred °C, with no time for evacuation. The destruction of Pompeii in AD 79 was largely caused by pyroclastic flows."
+    },
+    {
+      "id": "geo-gcse-volcanoes-010",
+      "q": "Give three secondary effects of a volcanic eruption.",
+      "a": "Lahars (mudflows of ash mixed with water or melting ice) flooding valleys; disruption to air travel from ash clouds; long-term respiratory health problems from ash inhalation; food and water shortages; long-term displacement; economic damage to tourism and agriculture; climate cooling from large eruptions.",
+      "hint": "Things that follow on from the immediate eruption.",
+      "explanation": "Some secondary effects last years — large eruptions inject sulphur dioxide into the stratosphere, where it forms tiny droplets that reflect sunlight and cool the Earth's surface globally for 1–2 years. The 1815 eruption of Tambora caused the 'year without a summer' in 1816."
+    },
+    {
+      "id": "geo-gcse-volcanoes-011",
+      "q": "Give three reasons why people choose to live near active volcanoes despite the risks.",
+      "a": "Fertile volcanic soils excellent for farming; geothermal energy for cheap renewable electricity and heating; rich mineral deposits (gold, copper, sulphur); tourism brings income; family and cultural ties; low perceived risk between eruptions; some have lived there all their lives.",
+      "hint": "Think about economic and social benefits.",
+      "explanation": "Iceland gets approximately 25% of its electricity and most of its heating from geothermal sources — directly because of its volcanic activity. In Indonesia and the Philippines, the fertile soils on the slopes of active volcanoes support intensive agriculture and dense populations."
+    },
+    {
+      "id": "geo-gcse-volcanoes-012",
+      "q": "How can the impact of a volcanic eruption be reduced?",
+      "a": "Monitoring (seismographs detect tremors, gas sensors detect rising SO₂, GPS detects ground deformation, satellites track temperature changes); prediction enabling evacuation; planning (hazard maps, evacuation routes, drills); protection (diverting lava flows with barriers, reinforcing buildings against ash loading); education so populations know how to respond.",
+      "hint": "Think about prediction, planning, protection.",
+      "explanation": "Volcanoes are much easier to predict than earthquakes because they usually give warning signs (small earthquakes, rising gas emissions, swelling of the ground) days, weeks or even months before an eruption. This is why volcanic death tolls in HICs are usually low compared to earthquakes."
+    },
+    {
+      "id": "geo-gcse-volcanoes-013",
+      "q": "What is the Volcanic Explosivity Index (VEI)?",
+      "a": "A scale from 0 to 8 used to measure the size and explosiveness of volcanic eruptions, based on the volume of material ejected, the height of the eruption column, and the qualitative description of the event. Each step on the scale represents a roughly tenfold increase in ejected material.",
+      "hint": "It works a bit like the Richter scale for earthquakes.",
+      "explanation": "Eyjafjallajökull 2010 was VEI 4 — significant but not extreme by volcanic standards. The 1980 eruption of Mount St Helens was VEI 5. The largest known eruption in history (Mount Tambora, 1815) was VEI 7. A VEI 8 'supervolcano' eruption would be globally catastrophic."
+    },
+    {
+      "id": "geo-gcse-volcanoes-014",
+      "q": "When and where did the Eyjafjallajökull eruption begin, and what type of volcano is it?",
+      "a": "Eyjafjallajökull began erupting on 20 March 2010 (with a much larger second phase from 14 April), in southern Iceland. It is a stratovolcano located beneath a glacier, sitting on the Mid-Atlantic Ridge — a constructive plate margin between the North American and Eurasian Plates.",
+      "hint": "Iceland, 2010, on a constructive margin under ice.",
+      "explanation": "The eruption being beneath a glacier is critical — when magma met ice, the rapid melting and steam explosions fragmented the lava into very fine ash that was easily carried high into the atmosphere by the eruption column."
+    },
+    {
+      "id": "geo-gcse-volcanoes-015",
+      "q": "Describe two primary effects of the Eyjafjallajökull 2010 eruption.",
+      "a": "A large ash cloud rose 9 km into the atmosphere, drifting south-east over Europe; meltwater from the glacier caused flash floods (jökulhlaups) in southern Iceland, destroying roads and farmland; around 800 people in the local area were evacuated; some farms were buried in ash, killing livestock and damaging crops.",
+      "hint": "Think about ash, meltwater floods, and local damage.",
+      "explanation": "The local primary effects in Iceland were significant but relatively contained — Iceland's HIC status and low population density in the affected area meant no direct deaths from the eruption itself."
+    },
+    {
+      "id": "geo-gcse-volcanoes-016",
+      "q": "Describe two secondary effects of the Eyjafjallajökull 2010 eruption.",
+      "a": "European airspace was closed for around 6 days because ash particles could damage jet engines, leading to over 100,000 flights cancelled and approximately 10 million passengers stranded worldwide. Global economic impact was estimated at US$5 billion. Long-term agricultural impacts on Icelandic farms in the ash-affected area; some tourism disruption to Iceland, offset later by 'volcano tourism'.",
+      "hint": "The big impact wasn't in Iceland — it was air travel.",
+      "explanation": "Eyjafjallajökull is the textbook example of a volcanic eruption with limited local impact but enormous global secondary effects. The closure of European airspace was the largest air traffic shutdown since the Second World War and exposed how dependent the global economy had become on aviation."
+    },
+    {
+      "id": "geo-gcse-volcanoes-017",
+      "q": "Why did the relatively small Eyjafjallajökull eruption (VEI 4) have such large global effects?",
+      "a": "Three factors combined: the eruption was beneath a glacier, so meltwater fragmented the lava into very fine ash; an explosive eruption column drove the ash high into the atmosphere; prevailing winds carried the ash plume directly south-east over densely-trafficked European airspace. Modern jet engines can be seriously damaged by ingesting volcanic ash, so airspace had to be closed. The disruption highlighted how vulnerable modern global systems are to natural hazards.",
+      "hint": "Glacier + wind direction + jet engines.",
+      "explanation": "A larger eruption with a different wind direction would have had far less global impact. Iceland is normally a poor place for ash to disrupt aviation — but in April 2010 high pressure brought stable winds blowing the ash plume straight at Europe."
+    },
+    {
+      "id": "geo-gcse-volcanoes-018",
+      "q": "Why did the Eyjafjallajökull eruption cause no direct deaths, despite being a significant VEI 4 event?",
+      "a": "Iceland is an HIC with excellent volcano monitoring — the eruption was anticipated, and the 800 people living in the immediate vicinity were evacuated in time. The eruption was not particularly violent at the surface (no pyroclastic flows), and lava flows were limited. The most dangerous global effect (ash in jet engines) was managed by closing airspace before any plane was lost.",
+      "hint": "Think about monitoring, evacuation, and the type of hazard produced.",
+      "explanation": "Compare with the 1985 Nevado del Ruiz eruption in Colombia (LIC) which killed over 23,000 people through lahars in the town of Armero, despite warnings going unheeded. Volcano monitoring saves lives — but only if the country has the resources and political will to act on the data."
+    },
+    {
+      "id": "geo-gcse-volcanoes-019",
+      "q": "Why is volcanic activity so common in Iceland?",
+      "a": "Iceland sits directly on the Mid-Atlantic Ridge, a constructive plate margin where the North American and Eurasian Plates are moving apart at around 2 cm per year. Magma constantly rises through the gap between the plates, creating new crust. Iceland also sits over a hot spot, which makes activity even more intense. Together, this gives Iceland roughly 130 volcanoes (about 30 active).",
+      "hint": "It's on a constructive margin AND a hot spot.",
+      "explanation": "Iceland is the only landmass where a mid-ocean ridge is exposed above sea level, which is why it is so geologically active. The country takes advantage of this through geothermal energy: around 90% of homes are heated geothermally and about 25% of electricity is geothermal."
+    },
+    {
+      "id": "geo-gcse-volcanoes-020",
+      "q": "'The Eyjafjallajökull eruption shows that even small volcanic eruptions can have major global impacts.' To what extent do you agree?",
+      "a": "Agree: a VEI 4 eruption is fairly modest, yet it shut down European airspace for 6 days, cancelled 100,000+ flights, and caused around US$5 billion in economic losses. This shows that small eruptions can have disproportionate global effects when modern interconnected systems (especially aviation, supply chains, and tourism) are disrupted. Disagree: the global impact was a result of unusual factors — the ash being especially fine (due to the glacier), an explosive column, and the wind direction. A different eruption with different conditions would have had a much smaller global effect. Larger eruptions like Tambora (1815) had vastly greater global impacts (the 'year without a summer'). Conclusion: small eruptions can have major global effects in specific circumstances, but most don't — the size of the impact depends as much on context (location, weather, what systems are affected) as on the size of the eruption itself.",
+      "hint": "Was it 'small eruption, big impact' — or were the conditions unusual?",
+      "explanation": "Strong evaluation answers use the case study to support a nuanced argument. Eyjafjallajökull was a specific combination of factors — the answer should acknowledge that other VEI 4 eruptions wouldn't necessarily have the same global impact."
+    }
+  ]
+}

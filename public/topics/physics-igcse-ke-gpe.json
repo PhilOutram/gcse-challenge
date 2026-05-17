@@ -1,0 +1,147 @@
+{
+  "subject": "Physics",
+  "level": "IGCSE Higher",
+  "topic": "Kinetic and Gravitational Potential Energy",
+  "questions": [
+    {
+      "id": "phys-igcse-ke-gpe-001",
+      "q": "Define kinetic energy.",
+      "a": "The energy an object has because of its motion. Any moving object has kinetic energy.",
+      "hint": "Energy of movement.",
+      "explanation": "Kinetic energy depends on the object's mass and its speed. A stationary object has zero kinetic energy; the faster something moves, the more kinetic energy it has."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-002",
+      "q": "Write the equation for kinetic energy.",
+      "a": "KE = (1/2) × m × v². KE is in joules (J); m is in kilograms (kg); v is in metres per second (m/s).",
+      "hint": "Half m v squared.",
+      "explanation": "Note that velocity is SQUARED. This means kinetic energy doesn't increase linearly with speed — double the speed and you quadruple the kinetic energy. This is why crashes at higher speeds are so much more devastating."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-003",
+      "q": "Define gravitational potential energy.",
+      "a": "The energy an object has because of its position in a gravitational field — that is, because of its height above some reference level (usually the ground).",
+      "hint": "Energy due to position above the ground.",
+      "explanation": "GPE is stored energy: it could be released as kinetic energy if the object is allowed to fall. The higher you raise something, the more GPE it has. GPE is always measured relative to some reference level — usually the ground or the floor."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-004",
+      "q": "Write the equation for change in gravitational potential energy.",
+      "a": "ΔGPE = m × g × h (or just GPE = m × g × h). GPE is in joules (J); m is in kilograms (kg); g is gravitational field strength in N/kg (10 N/kg on Earth, sometimes 9.8 or 9.81 for more precision); h is height change in metres (m).",
+      "hint": "Mass times gravity times height.",
+      "explanation": "ΔGPE is the CHANGE in GPE — the energy you gain by raising something through a height h. For exam purposes, g = 10 N/kg is usually sufficient. On the Moon, g is only about 1.6 N/kg, which is why astronauts can jump so high — much less GPE is gained per metre."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-005",
+      "q": "A car of mass 1000 kg is travelling at 20 m/s. Calculate its kinetic energy.",
+      "a": "KE = (1/2) × m × v² = 0.5 × 1000 × 20² = 0.5 × 1000 × 400 = 200,000 J (200 kJ).",
+      "hint": "Square the speed first, then multiply by half the mass.",
+      "explanation": "20 m/s is roughly 45 mph or 72 km/h. 200,000 J is a lot of energy — equivalent to lifting a 1000 kg car about 20 m straight up. This is why a car crashing at speed can do so much damage: all of that energy has to go somewhere."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-006",
+      "q": "A 60 kg person climbs a 4 m ladder. Calculate the gain in gravitational potential energy. (g = 10 N/kg)",
+      "a": "ΔGPE = mgh = 60 × 10 × 4 = 2400 J.",
+      "hint": "Mass times gravity times height.",
+      "explanation": "2400 J is roughly the energy in 0.6 grams of food (about 1/8 of a teaspoon of sugar). Climbing the ladder takes very little energy from food terms, even though it feels effortful — most of the effort feeling comes from muscle inefficiency, not from the work actually done."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-007",
+      "q": "If a car doubles its speed, by what factor does its kinetic energy increase?",
+      "a": "It increases by a factor of 4 (it quadruples), because kinetic energy depends on velocity SQUARED. Double v → v² becomes (2v)² = 4v², so KE quadruples.",
+      "hint": "What happens to v squared when v is doubled?",
+      "explanation": "This is one of the most important conceptual points in Higher-tier physics. It explains why braking distances grow with the square of the speed (because all the KE must be turned into thermal energy by the brakes), and why high-speed crashes are so much more destructive than low-speed ones."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-008",
+      "q": "A 0.5 kg ball is dropped from a height of 5 m. Assuming no air resistance, calculate its speed just before it hits the ground. (g = 10 N/kg)",
+      "a": "All of the GPE becomes KE just before impact: mgh = (1/2)mv². The mass cancels: gh = (1/2)v². So v² = 2gh = 2 × 10 × 5 = 100. v = √100 = 10 m/s.",
+      "hint": "Set GPE = KE. The mass cancels — you don't need it.",
+      "explanation": "Notice that the mass m appears on both sides and cancels — meaning all objects fall at the same speed in a vacuum, regardless of mass. Galileo demonstrated this from the Leaning Tower of Pisa. The result v² = 2gh is sometimes useful as a shortcut for falling-object problems."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-009",
+      "q": "A roller coaster carriage of mass 500 kg passes the top of a hill at 5 m/s. The next valley is 25 m below the hill. Assuming no friction, calculate the speed of the carriage at the bottom of the valley. (g = 10 N/kg)",
+      "a": "Initial KE at top = (1/2)(500)(5²) = 6,250 J. GPE lost on the way down = mgh = 500 × 10 × 25 = 125,000 J. Total KE at bottom = initial KE + GPE lost = 6,250 + 125,000 = 131,250 J. From (1/2)mv² = 131,250: v² = (2 × 131,250) / 500 = 525. v = √525 ≈ 22.9 m/s.",
+      "hint": "Initial KE plus GPE converted equals final KE.",
+      "explanation": "Conservation of energy in action. Note we couldn't just use v² = 2gh because the carriage starts with non-zero speed — we had to add the initial KE. About 22.9 m/s is roughly 51 mph, which is realistic for a roller coaster."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-010",
+      "q": "A 2 kg book is on a shelf 1.5 m above the floor. It falls off and hits the floor. Calculate the speed at which it hits the floor, ignoring air resistance. (g = 10 N/kg)",
+      "a": "GPE lost = mgh = 2 × 10 × 1.5 = 30 J. This all becomes KE: (1/2)(2)v² = 30, so v² = 30. v = √30 ≈ 5.5 m/s.",
+      "hint": "All GPE → all KE.",
+      "explanation": "Notice that you DO NOT NEED the mass to find the speed of a falling object — it always cancels. But the mass IS needed if you're asked about the energy itself (e.g., 'how much KE does it have?')."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-011",
+      "q": "A pendulum of mass 0.2 kg is released from a height of 0.4 m above its lowest point. Calculate its speed at the lowest point of its swing, assuming no friction. (g = 10 N/kg)",
+      "a": "GPE at top = mgh = 0.2 × 10 × 0.4 = 0.8 J. At lowest point, all GPE has become KE: (1/2)(0.2)v² = 0.8. So v² = 8. v = √8 ≈ 2.83 m/s.",
+      "hint": "GPE at top = KE at bottom.",
+      "explanation": "A pendulum is a beautiful demonstration of conservation of energy — at each swing's top, KE is zero and GPE is maximum; at the bottom of the swing, KE is maximum and GPE is minimum (relative to that lowest point). In reality, friction at the pivot and air resistance gradually drain energy, causing the pendulum to slow down."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-012",
+      "q": "A ball is thrown straight up with an initial speed of 15 m/s. Calculate the maximum height it reaches, ignoring air resistance. (g = 10 N/kg)",
+      "a": "All KE at the start must become GPE at the highest point. (1/2)mv² = mgh. Mass cancels: (1/2)v² = gh. So h = v² / (2g) = 15² / (2 × 10) = 225 / 20 = 11.25 m.",
+      "hint": "KE at launch = GPE at peak. Mass cancels.",
+      "explanation": "Note that the mass doesn't matter — a tennis ball and a cannonball thrown at the same speed will reach the same height (in a vacuum). Air resistance is what makes a real cannonball go higher than a real tennis ball when thrown at the same speed: the tennis ball loses more of its KE to air resistance."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-013",
+      "q": "Explain why a child on a swing can never swing higher than the height they started from, even though they appear to gain energy as they swing.",
+      "a": "By conservation of energy, the swing's GPE plus KE is constant (ignoring friction). At each highest point, all the energy is in GPE — and this must equal the GPE at the original starting point. So the maximum height can never exceed the starting height. The child swings back and forth at the same maximum height each time, losing a little to friction and air resistance — so in fact they slowly swing lower, not higher, unless they actively 'pump' the swing by shifting their body weight to add energy.",
+      "hint": "Conservation of energy + reality of friction.",
+      "explanation": "Without 'pumping' (legs in then out at the right moments), a swing always slows down. By coordinating their body motion with the swing's rhythm, a child adds chemical energy from their muscles into the system — work is done by the legs, which is the only way the height can increase."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-014",
+      "q": "Two cars are travelling at the same speed but one has twice the mass of the other. Compare their kinetic energies.",
+      "a": "KE = (1/2)mv². If v is the same and mass is doubled, KE is doubled (KE scales linearly with mass).",
+      "hint": "Mass appears linearly in the KE formula.",
+      "explanation": "Speed has a much bigger effect than mass on KE because of the v² term. Doubling the mass doubles KE; doubling the speed quadruples KE. This is why heavy trucks are more dangerous to other cars than light cars are, but speed is a far worse risk factor than weight overall."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-015",
+      "q": "A 50 kg cyclist freewheels down a 20 m hill, starting from rest. Friction and air resistance dissipate 4,000 J of energy. Calculate her speed at the bottom of the hill. (g = 10 N/kg)",
+      "a": "GPE at top = mgh = 50 × 10 × 20 = 10,000 J. KE at bottom = GPE at top - energy lost to friction = 10,000 - 4,000 = 6,000 J. (1/2)(50)v² = 6,000. So v² = 240. v = √240 ≈ 15.5 m/s.",
+      "hint": "Final KE = initial GPE minus energy lost.",
+      "explanation": "Including dissipation in conservation calculations is a step up — but it's just one more subtraction. 15.5 m/s is about 35 mph, a fast (but realistic) cycling speed downhill. Without friction, the speed would have been √(2gh) = √400 = 20 m/s (45 mph) — friction took about 22% off the final speed."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-016",
+      "q": "A 1500 kg car decelerates from 30 m/s to 10 m/s by braking. Calculate the energy transferred to the brakes as thermal energy.",
+      "a": "Initial KE = (1/2)(1500)(30²) = 675,000 J. Final KE = (1/2)(1500)(10²) = 75,000 J. Energy lost (to brakes as thermal energy) = initial KE - final KE = 675,000 - 75,000 = 600,000 J.",
+      "hint": "Lost KE = initial KE - final KE.",
+      "explanation": "600,000 J going into the brake discs is why they get red hot in racing. Conventional braking essentially throws away all this energy as heat. Regenerative braking in electric and hybrid cars captures some of this energy back into the battery — which is why those cars are more efficient in stop-start traffic."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-017",
+      "q": "A 0.04 kg ping-pong ball is dropped from a height of 1 m. After bouncing, it rises to a height of 0.7 m. Calculate the energy lost to thermal energy and sound during the bounce. (g = 10 N/kg)",
+      "a": "Initial GPE = 0.04 × 10 × 1 = 0.4 J. GPE after bounce = 0.04 × 10 × 0.7 = 0.28 J. Energy lost = 0.4 - 0.28 = 0.12 J.",
+      "hint": "Initial GPE minus final GPE after bounce.",
+      "explanation": "The bounce 'efficiency' is 0.28 / 0.4 = 70%. The lost 30% has become thermal energy in the ball and floor (very tiny temperature rise) and sound (the audible 'pong'). No real bouncing ball returns to its original height — perfectly elastic collisions don't happen at everyday scales."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-018",
+      "q": "A child throws a 0.5 kg ball straight up at 8 m/s, and catches it again at the same height. Ignoring air resistance, what is the ball's speed when caught, and explain the conservation principle involved.",
+      "a": "The ball's speed when caught is 8 m/s (downward instead of upward). On the way up, KE is converted to GPE; at the top, all KE has become GPE; on the way down, GPE is reconverted to KE. With no air resistance, no energy is lost, so the ball returns to the same height with the same speed (by conservation of energy).",
+      "hint": "Symmetry. No friction = same speed on return.",
+      "explanation": "This idealised scenario shows conservation of energy in pure form. In reality, air resistance does work against the ball going up AND coming down — meaning the ball returns slightly slower than it was thrown. For dense, small objects (like a steel ball bearing) air resistance is negligible; for light or large objects (like a feather) it dominates."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-019",
+      "q": "A skydiver of mass 80 kg reaches terminal velocity at 50 m/s. Calculate her kinetic energy at terminal velocity, and explain why she has stopped accelerating despite gravity still pulling her down. (g = 10 N/kg)",
+      "a": "KE at terminal velocity = (1/2)(80)(50²) = 100,000 J. She stops accelerating because the upward force of air resistance has grown to equal the downward force of gravity (her weight). The two forces are now balanced, so the resultant force is zero — no acceleration, but she continues at constant velocity. All of the gravitational potential energy she's losing as she falls is going entirely into thermal energy of the air (via air resistance), not into kinetic energy any more.",
+      "hint": "Forces balance — but energy is still being transferred (to the air).",
+      "explanation": "At terminal velocity, energy in (from GPE) equals energy out (to air resistance / thermal). The skydiver carries on at a constant 50 m/s, but they're not 'storing' new kinetic energy — the air is heating up at the rate she's losing height. Skydiving is a useful real-world energy-conservation question because it illustrates that 'constant speed' doesn't mean 'no energy is being transferred'."
+    },
+    {
+      "id": "phys-igcse-ke-gpe-020",
+      "q": "A 1200 kg car accelerates from rest to 25 m/s along a flat road in 8 seconds. Calculate (a) the kinetic energy gained, and (b) the useful power output of the engine. If the engine is 25% efficient, calculate (c) the total power input from the fuel.",
+      "a": "(a) KE gained = (1/2)(1200)(25²) = 375,000 J. (b) Useful power = energy/time = 375,000 / 8 = 46,875 W ≈ 46.9 kW. (c) If efficiency is 25%, total power input = useful power / efficiency = 46,875 / 0.25 = 187,500 W = 187.5 kW (about 250 hp).",
+      "hint": "Find KE first, then useful power, then divide by efficiency.",
+      "explanation": "A three-part question pulling together everything from Section 4: KE, power, and efficiency. The result — 250 hp for a normal family car accelerating to 56 mph in 8 seconds — is realistic. Notice that on a flat road we ignored air resistance, which would actually require even more power in reality."
+    }
+  ]
+}

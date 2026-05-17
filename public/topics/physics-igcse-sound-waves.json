@@ -1,0 +1,147 @@
+{
+  "subject": "Physics",
+  "level": "IGCSE Higher",
+  "topic": "Sound Waves",
+  "questions": [
+    {
+      "id": "phys-igcse-sound-001",
+      "q": "What type of wave is a sound wave?",
+      "a": "A longitudinal wave.",
+      "hint": "Particles oscillate parallel to the direction of energy transfer.",
+      "explanation": "In a sound wave, air molecules vibrate back and forth along the direction the wave is travelling, creating alternating regions of compression (higher pressure) and rarefaction (lower pressure). This is a common exam point — sound is NOT transverse."
+    },
+    {
+      "id": "phys-igcse-sound-002",
+      "q": "Why can sound not travel through a vacuum?",
+      "a": "Sound waves need a medium with particles (solid, liquid or gas) to vibrate and pass energy between. A vacuum contains no particles, so there is nothing to carry the wave.",
+      "hint": "What does a sound wave actually move through?",
+      "explanation": "This is a key difference from light waves, which can travel through a vacuum (because EM waves don't need a medium). In space, the only way to communicate is by radio waves — there is literally no sound."
+    },
+    {
+      "id": "phys-igcse-sound-003",
+      "q": "Approximately how fast does sound travel in air at room temperature?",
+      "a": "Around 340 m/s (sometimes given as 330–343 m/s depending on conditions).",
+      "hint": "About 1/3 of a kilometre per second.",
+      "explanation": "Speed of sound varies with temperature, pressure and the medium. In warmer air, sound travels faster (molecules have more kinetic energy). In water it's ~1500 m/s, in steel ~5000 m/s — sound travels faster in solids because particles are closer together."
+    },
+    {
+      "id": "phys-igcse-sound-004",
+      "q": "What is the approximate range of human hearing?",
+      "a": "Approximately 20 Hz to 20,000 Hz (20 kHz).",
+      "hint": "Roughly 20 to 20,000.",
+      "explanation": "The upper limit drops as we age — most adults can't hear above 14-15 kHz; teenagers can typically hear up to 17-18 kHz. The lower limit means very low frequencies are felt as vibration rather than heard."
+    },
+    {
+      "id": "phys-igcse-sound-005",
+      "q": "What is ultrasound?",
+      "a": "Sound waves with a frequency above the upper limit of human hearing (above 20,000 Hz / 20 kHz).",
+      "hint": "Higher frequency than humans can hear.",
+      "explanation": "Many animals (dogs, bats, dolphins) can hear into the ultrasonic range. The reason we use this frequency band is precisely because it doesn't disturb humans — and shorter wavelengths give better imaging resolution."
+    },
+    {
+      "id": "phys-igcse-sound-006",
+      "q": "What is infrasound?",
+      "a": "Sound waves with a frequency below the lower limit of human hearing (below 20 Hz).",
+      "hint": "Lower frequency than humans can hear.",
+      "explanation": "Elephants and whales communicate using infrasound, which can travel huge distances. Infrasound is also produced by some natural events like volcanic eruptions and earthquakes, and is monitored to detect such events."
+    },
+    {
+      "id": "phys-igcse-sound-007",
+      "q": "How does the amplitude of a sound wave affect how it sounds?",
+      "a": "A larger amplitude makes the sound louder. A smaller amplitude makes it quieter.",
+      "hint": "Bigger oscillations = more energy = louder.",
+      "explanation": "Larger amplitude means more energy per wave, which means more energy hits the eardrum each cycle, which is perceived as louder. The decibel scale used for loudness is logarithmic (because human perception of loudness is logarithmic)."
+    },
+    {
+      "id": "phys-igcse-sound-008",
+      "q": "How does the frequency of a sound wave affect how it sounds?",
+      "a": "Higher frequency produces a higher-pitched sound (high notes). Lower frequency produces a lower-pitched sound (low notes / bass).",
+      "hint": "More cycles per second = higher pitch.",
+      "explanation": "On a piano, middle C is around 262 Hz; an octave higher is 524 Hz (exactly double the frequency). Each octave on a musical scale corresponds to a doubling in frequency — which is why the keyboard pattern repeats."
+    },
+    {
+      "id": "phys-igcse-sound-009",
+      "q": "How does an oscilloscope display a sound wave?",
+      "a": "A microphone converts the sound wave into a varying electrical signal, which is displayed on the oscilloscope screen as a graph of voltage (vertical axis) against time (horizontal axis). The resulting trace looks like a transverse wave, even though sound is longitudinal.",
+      "hint": "Sound is converted to electrical signal, then graphed against time.",
+      "explanation": "Important: the oscilloscope trace shows the wave as if it were transverse purely because it's a graph against time, not because the sound itself is transverse. The wave equation v = fλ still applies. The graph is essentially a time-domain representation."
+    },
+    {
+      "id": "phys-igcse-sound-010",
+      "q": "On an oscilloscope trace, how is the amplitude of a sound shown?",
+      "a": "The amplitude is shown by the height of the trace from the centre line to the peak. A larger amplitude trace represents a louder sound.",
+      "hint": "The vertical distance from rest to peak.",
+      "explanation": "If a sound becomes louder, the trace becomes 'taller' (peaks higher and troughs deeper). If it becomes quieter, the trace becomes 'shorter'. The horizontal pattern (frequency) stays the same."
+    },
+    {
+      "id": "phys-igcse-sound-011",
+      "q": "On an oscilloscope trace, how is the frequency of a sound shown?",
+      "a": "The frequency is shown by how many wave cycles fit into a given horizontal distance on the screen. A higher-frequency sound shows more cycles per unit time — the peaks are closer together.",
+      "hint": "Cycles per second — how tightly packed are they?",
+      "explanation": "To calculate frequency from an oscilloscope trace, measure the time for one complete cycle (the time period T using the time/division setting), then use f = 1/T."
+    },
+    {
+      "id": "phys-igcse-sound-012",
+      "q": "An oscilloscope shows that one complete cycle of a sound wave takes 0.002 s. Calculate the frequency of the sound.",
+      "a": "f = 1/T = 1/0.002 = 500 Hz.",
+      "hint": "Frequency is one over the time period.",
+      "explanation": "500 Hz is roughly the pitch of a typical alarm or doorbell. The time period of 2 milliseconds means the air molecules are vibrating back and forth 500 times per second."
+    },
+    {
+      "id": "phys-igcse-sound-013",
+      "q": "Give two medical uses of ultrasound.",
+      "a": "Imaging foetuses during pregnancy (prenatal scans); imaging soft tissues and organs; detecting kidney stones; breaking up kidney stones with focused ultrasound.",
+      "hint": "Think about pregnancy scans and breaking up stones.",
+      "explanation": "Ultrasound is preferred over X-rays for foetal imaging because it doesn't use ionising radiation — there is no known harm to the developing foetus. The image is built by measuring how long ultrasound pulses take to reflect off tissue boundaries."
+    },
+    {
+      "id": "phys-igcse-sound-014",
+      "q": "Give two industrial or scientific uses of ultrasound.",
+      "a": "Sonar (detecting ships, submarines, shoals of fish, mapping the sea floor); detecting flaws and cracks inside metal components (e.g., aircraft parts, pipelines); cleaning delicate equipment using ultrasonic baths.",
+      "hint": "Think about sonar and inspecting metal parts.",
+      "explanation": "Sonar (Sound Navigation And Ranging) sends an ultrasonic pulse downwards and measures the time for the echo to return — distance is then calculated from speed × time / 2 (the wave travels there and back). Same principle is used to find cracks inside metal parts."
+    },
+    {
+      "id": "phys-igcse-sound-015",
+      "q": "Describe an experiment to measure the speed of sound in air.",
+      "a": "Stand a measured distance (e.g., 100 m) from a wall. Clap your hands or strike two sticks together, then time the gap between the sound and its echo using a stopwatch. The sound travels twice the distance to the wall (out and back), so: speed = (2 × distance) / time. Repeat several times and average to reduce random error. Alternative methods: use two microphones a known distance apart connected to a fast timer; or use an oscilloscope to measure the time between the original sound and its echo.",
+      "hint": "Clap, listen for echo, time the gap, use distance × 2.",
+      "explanation": "The 'clap echo' method works because echoes return after a measurable delay. With a 100m round trip and sound at 340 m/s, the delay would be about 0.6 s. Greater distance gives a more accurate measurement (since reaction time error becomes proportionally smaller)."
+    },
+    {
+      "id": "phys-igcse-sound-016",
+      "q": "A ship sends an ultrasonic pulse down to the sea floor. The echo returns 0.2 s later. Sound travels at 1500 m/s in seawater. Calculate the depth of the sea floor below the ship.",
+      "a": "The pulse travels there and back, so total distance = 1500 × 0.2 = 300 m. Depth (one way) = 300 / 2 = 150 m.",
+      "hint": "Remember the pulse has to travel down AND back. Halve the total distance.",
+      "explanation": "This is exactly how sonar mapping works. Modern ships use this method continuously to build detailed maps of the sea floor for navigation, fishing, and oceanographic research."
+    },
+    {
+      "id": "phys-igcse-sound-017",
+      "q": "Sound travels through different media at different speeds. State, with a reason, whether sound travels faster in air, water, or steel.",
+      "a": "Sound travels fastest in steel, then in water, then in air. This is because sound is transmitted by collisions between particles of the medium. In solids (steel), particles are closely packed and held together by strong bonds, so vibrations are passed on very quickly. In liquids (water), particles are still close together but more loosely bound. In gases (air), particles are far apart, so it takes much longer for a vibration to pass from one to the next.",
+      "hint": "Solids fastest; gases slowest. Particle spacing is the key.",
+      "explanation": "Approximate speeds: steel ~5000 m/s, water ~1500 m/s, air ~340 m/s. This is also why if you put your ear to a train track, you'll hear an approaching train through the rail before you hear it through the air."
+    },
+    {
+      "id": "phys-igcse-sound-018",
+      "q": "Explain why an ultrasound scan of a foetus is safer than an X-ray.",
+      "a": "Ultrasound is a high-frequency sound wave, which is non-ionising and carries far less energy per oscillation than X-rays. X-rays are ionising electromagnetic radiation — they can knock electrons off atoms in DNA, damaging cells and potentially causing mutations or cancer, which is particularly risky for a developing foetus. Ultrasound waves at the intensities used for medical imaging cause no known damage to tissue, making them the standard imaging method during pregnancy.",
+      "hint": "Ionising vs non-ionising radiation.",
+      "explanation": "More generally, ultrasound has replaced X-rays for many imaging applications where soft tissue is involved. X-rays are still needed for bone, lungs, and where high resolution is required. Ultrasound's main limitation is that it doesn't pass well through bone or air."
+    },
+    {
+      "id": "phys-igcse-sound-019",
+      "q": "On an oscilloscope, two sound waves are shown. Wave A has twice the height (amplitude) of Wave B, but the peaks are at the same horizontal spacing. Describe how the two sounds differ when heard.",
+      "a": "Wave A is twice as loud as Wave B (because of its larger amplitude). The two sounds have the same pitch — same frequency means the peaks are at the same spacing on the time axis.",
+      "hint": "Amplitude affects loudness; frequency affects pitch.",
+      "explanation": "Be careful with 'twice as loud' — strictly, doubling the amplitude doesn't double the perceived loudness, because loudness is a logarithmic perception (and doubles roughly every 10 dB increase, which corresponds to roughly tenfold sound power). At GCSE level, 'larger amplitude = louder' is sufficient."
+    },
+    {
+      "id": "phys-igcse-sound-020",
+      "q": "Explain why we hear thunder several seconds after we see lightning, even though the lightning and thunder happen at the same time.",
+      "a": "Light travels at approximately 3 × 10⁸ m/s, so it reaches us almost instantaneously. Sound travels at only ~340 m/s, so the thunder takes appreciable time to reach us — about 3 seconds per kilometre. The gap between seeing the lightning and hearing the thunder is therefore a measure of how far away the lightning struck.",
+      "hint": "Light is millions of times faster than sound.",
+      "explanation": "A rough rule: every 3 seconds of delay between flash and thunder means the storm is about 1 km away. If the delay is less than a second, the storm is essentially on top of you. The same principle is used in seismology to determine the location of earthquakes (P-waves arrive before S-waves)."
+    }
+  ]
+}

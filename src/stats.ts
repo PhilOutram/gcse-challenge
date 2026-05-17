@@ -3,15 +3,39 @@ import type { PlayerStats } from './types';
 export const STATS_KEY = 'gcse-challenge-stats-v2';
 export const NAME_KEY = 'gcse-challenge-name-v1';
 export const DEVICE_ID_KEY = 'gcse-challenge-device-id-v1';
+export const TOTALS_KEY = 'gcse-challenge-totals-v1';
+export const THEME_KEY = 'gcse-challenge-theme-v1';
 export const GRADUATE_THRESHOLD = 2;
 
 export function getDeviceId(): string {
-  let id = sessionStorage.getItem(DEVICE_ID_KEY);
+  let id = localStorage.getItem(DEVICE_ID_KEY);
   if (!id) {
     id = crypto.randomUUID();
-    sessionStorage.setItem(DEVICE_ID_KEY, id);
+    localStorage.setItem(DEVICE_ID_KEY, id);
   }
   return id;
+}
+
+export interface PlayerTotals {
+  correct: number;
+  wrong: number;
+}
+
+export type AllTotals = Record<string, PlayerTotals>;
+
+export function incrementTotal(
+  totals: AllTotals,
+  playerName: string,
+  kind: 'correct' | 'wrong',
+): AllTotals {
+  const cur = totals[playerName] ?? { correct: 0, wrong: 0 };
+  return {
+    ...totals,
+    [playerName]: {
+      correct: cur.correct + (kind === 'correct' ? 1 : 0),
+      wrong: cur.wrong + (kind === 'wrong' ? 1 : 0),
+    },
+  };
 }
 
 export function loadJSON<T>(key: string, fallback: T): T {

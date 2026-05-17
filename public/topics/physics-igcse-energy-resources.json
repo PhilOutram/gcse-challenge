@@ -1,0 +1,147 @@
+{
+  "subject": "Physics",
+  "level": "IGCSE Higher",
+  "topic": "Energy Resources and Electricity Generation",
+  "questions": [
+    {
+      "id": "phys-igcse-energy-resources-001",
+      "q": "What is the difference between a renewable and a non-renewable energy resource?",
+      "a": "A renewable energy resource can be replenished as quickly as it is used (or is effectively limitless) and will not run out — for example, solar, wind, water, geothermal. A non-renewable energy resource exists in finite quantities and is used up faster than it can be replenished — for example, coal, oil, natural gas, and nuclear fuels like uranium.",
+      "hint": "One runs out, the other doesn't.",
+      "explanation": "Note that nuclear is non-renewable (uranium reserves are finite) but it is also low-carbon — these are two different properties. Biomass (wood, biofuels) is renewable if regrown at the same rate it's used."
+    },
+    {
+      "id": "phys-igcse-energy-resources-002",
+      "q": "Name three fossil fuels.",
+      "a": "Coal, oil (crude oil / petroleum), and natural gas.",
+      "hint": "Three traditional sources of energy.",
+      "explanation": "All three are formed from the compressed remains of ancient organisms (coal from plants, oil and gas mostly from marine plankton) buried under sediment over millions of years. The energy they release when burned originally came from the Sun, via photosynthesis."
+    },
+    {
+      "id": "phys-igcse-energy-resources-003",
+      "q": "Describe the energy transfers in a fossil-fuel power station.",
+      "a": "Chemical energy store in the fuel → released as thermal energy by burning (combustion) → heats water to make high-pressure steam → kinetic energy of the steam turns a turbine → turbine turns a generator → electrical energy is produced.",
+      "hint": "Chemical → thermal → kinetic → electrical.",
+      "explanation": "This is the basic pattern for any thermal power station — fossil fuel, biomass, or nuclear. The 'turbine + generator' part is identical in all of them; the difference is only how the heat is produced. Modern combined-cycle gas plants also use the hot exhaust to drive a second turbine."
+    },
+    {
+      "id": "phys-igcse-energy-resources-004",
+      "q": "Describe the energy transfers in a wind turbine.",
+      "a": "Kinetic energy of the wind → turns the turbine blades → kinetic energy of the rotor → turns the generator → electrical energy.",
+      "hint": "It's KE all the way until the generator.",
+      "explanation": "Wind turbines need wind speeds typically between 4 m/s and 25 m/s to generate efficiently — too slow and they don't spin; too fast and they have to be shut down to prevent damage. UK average wind speeds make it one of the best places in Europe for wind power."
+    },
+    {
+      "id": "phys-igcse-energy-resources-005",
+      "q": "Describe the energy transfers in a hydroelectric power station.",
+      "a": "Gravitational potential energy of water stored at height (e.g., behind a dam) → kinetic energy as water falls through pipes → turns a turbine → kinetic energy of the rotor → turns a generator → electrical energy.",
+      "hint": "GPE → KE → generator.",
+      "explanation": "Hydroelectric power is one of the oldest and most reliable forms of renewable generation — but it relies on suitable geography (high reservoirs and flowing water). The Sun ultimately powers this too — solar evaporation lifts water into the atmosphere, where it falls as rain into the reservoirs."
+    },
+    {
+      "id": "phys-igcse-energy-resources-006",
+      "q": "Describe the energy transfers in a solar cell (photovoltaic panel).",
+      "a": "Light energy from the Sun (electromagnetic radiation) → directly converted to electrical energy in the semiconductor cell. No moving parts; no heating or combustion involved.",
+      "hint": "Light straight to electricity, with no intermediate steps.",
+      "explanation": "Solar cells (or photovoltaic cells) work by the photoelectric effect — photons knock electrons free in the silicon, creating a current. Typical efficiency is around 20%. Solar cells are different from solar thermal panels (which heat water using infrared radiation)."
+    },
+    {
+      "id": "phys-igcse-energy-resources-007",
+      "q": "Describe the energy transfers in a solar heating system (solar thermal).",
+      "a": "Infrared radiation from the Sun → absorbed by dark panels → heats water flowing through pipes in the panel → useful thermal energy for hot water or heating. This is different from a solar cell — it produces heat, not electricity.",
+      "hint": "It's about heating water, not generating electricity.",
+      "explanation": "Solar thermal panels are typically more efficient than solar PV at gathering the Sun's energy (50-70% vs 20%) but they only produce hot water rather than versatile electricity. Many homes use both: solar PV for electricity, solar thermal for hot water."
+    },
+    {
+      "id": "phys-igcse-energy-resources-008",
+      "q": "Describe the energy transfers in a geothermal power station.",
+      "a": "Thermal energy from hot rocks deep underground → heats water/steam pumped through pipes from the surface → steam turns a turbine → turbine turns a generator → electrical energy.",
+      "hint": "Heat from underground rocks → steam → turbine.",
+      "explanation": "Geothermal works best in volcanically active areas where hot rocks are near the surface (Iceland, New Zealand, parts of the USA). Iceland gets approximately 25% of its electricity and most of its heating from geothermal sources directly because of its location on the Mid-Atlantic Ridge."
+    },
+    {
+      "id": "phys-igcse-energy-resources-009",
+      "q": "Describe the energy transfers in a nuclear power station.",
+      "a": "Nuclear energy store in uranium (or plutonium) → released as thermal energy by nuclear fission → heats water to make steam → steam turns a turbine → turbine turns a generator → electrical energy.",
+      "hint": "Nuclear → thermal → kinetic → electrical (same as a fossil fuel plant after step 2).",
+      "explanation": "Nuclear fission splits heavy atoms (uranium-235) into smaller atoms, releasing huge amounts of energy. The reaction is sustained by neutrons released during each fission triggering further fissions — a chain reaction. After step 2, the process is identical to a fossil fuel power station."
+    },
+    {
+      "id": "phys-igcse-energy-resources-010",
+      "q": "Give two advantages and two disadvantages of using fossil fuels for electricity generation.",
+      "a": "Advantages: high energy density (a small amount of fuel produces a lot of electricity); reliable supply (can generate whenever needed, not weather-dependent); well-established infrastructure; relatively cheap historically. Disadvantages: releases CO₂ and other greenhouse gases, causing climate change; releases pollutants (e.g., SO₂ causing acid rain, particulates affecting health); non-renewable — will eventually run out; price subject to geopolitical instability.",
+      "hint": "Two pluses, two minuses.",
+      "explanation": "Higher energy density (~30-50 MJ/kg for coal) is why fossil fuels have dominated for two centuries. But the climate cost has shifted the picture — most countries are now phasing out coal first, then gas, while expanding renewables. Carbon capture is being explored to keep fossil fuels viable longer."
+    },
+    {
+      "id": "phys-igcse-energy-resources-011",
+      "q": "Give two advantages and two disadvantages of nuclear power.",
+      "a": "Advantages: very low CO₂ emissions in operation; very high energy density (1 kg of uranium gives the same energy as thousands of tonnes of coal); reliable continuous output (good 'base load' supply, not weather-dependent). Disadvantages: high upfront construction costs; produces radioactive waste that remains dangerous for thousands of years; risk of major accidents (Chernobyl, Fukushima); uranium itself is non-renewable; decommissioning is expensive and long.",
+      "hint": "Low carbon and reliable, but waste and accident risk.",
+      "explanation": "Nuclear is uniquely polarising — it's low-carbon (so good for climate change) but produces long-lived radioactive waste and carries low-probability but high-consequence accident risks. Different countries have made different judgements: France generates ~70% nuclear; Germany has phased it out; the UK is restarting nuclear construction."
+    },
+    {
+      "id": "phys-igcse-energy-resources-012",
+      "q": "Give two advantages and two disadvantages of wind power.",
+      "a": "Advantages: renewable (won't run out); zero CO₂ emissions in operation; low ongoing running costs once built; no fuel needed; can be installed offshore where wind is stronger and visual impact is reduced. Disadvantages: only generates when the wind blows (intermittent); can be unsightly and noisy; can affect birds and bats; high initial construction cost; wind farms take up a lot of land area for the power generated.",
+      "hint": "Free fuel but intermittent.",
+      "explanation": "Wind has grown dramatically — in 2023, around 25% of UK electricity came from wind. The intermittency problem is partly solved by combining different renewables (wind, solar, hydro) and by storage (batteries, pumped hydro). Offshore wind has lower visual impact and stronger winds, but is more expensive to build."
+    },
+    {
+      "id": "phys-igcse-energy-resources-013",
+      "q": "Give two advantages and two disadvantages of solar power (PV).",
+      "a": "Advantages: renewable; zero CO₂ emissions in operation; very low running costs; modular (can be installed on individual rooftops); useful in remote locations where grid connection is difficult. Disadvantages: only generates during daylight (especially around midday); output is reduced by cloud cover or in winter; manufacture of solar cells has some environmental impact; needs a lot of area for large-scale generation; storage needed for night-time use.",
+      "hint": "Free fuel but daytime-only.",
+      "explanation": "Solar costs have fallen by around 90% since 2010 — in many parts of the world, new solar generation is now cheaper than new fossil fuel generation. The intermittency problem is being addressed by batteries (e.g., lithium-ion) and pumped hydro storage."
+    },
+    {
+      "id": "phys-igcse-energy-resources-014",
+      "q": "Give two advantages and two disadvantages of hydroelectric power.",
+      "a": "Advantages: renewable; zero CO₂ emissions in operation; reliable and easy to switch on/off rapidly (great for matching electricity demand); long lifetime (50-100 years); can also be used for flood control. Disadvantages: dams flood large areas, displacing people and destroying ecosystems; expensive to build; very dependent on geography (need a suitable river/valley); can disrupt fish migration; high initial environmental impact.",
+      "hint": "Reliable but geographical and environmental challenges.",
+      "explanation": "Hydroelectric is the most-used renewable globally (about 16% of world electricity), partly because it's been viable for over a century. The Three Gorges Dam in China is the largest power station in the world but displaced 1.3 million people. New dams are increasingly controversial; pumped-storage hydro (a form of energy storage) is still being expanded."
+    },
+    {
+      "id": "phys-igcse-energy-resources-015",
+      "q": "Why are renewable energy resources sometimes called 'intermittent', and how can this be addressed?",
+      "a": "Many renewables (especially solar and wind) don't produce constant output — solar only works during the day; wind only works when the wind blows. Output is therefore variable and doesn't always match demand. This 'intermittency' can be addressed by: using a mix of different renewables (some always generating); large-scale energy storage (batteries, pumped hydro, hydrogen); demand management (shifting electricity use to match supply); maintaining some reliable 'base load' generation (nuclear, hydro, gas, biomass) for backup; connecting many regions via a large grid so geographic averaging smooths the output.",
+      "hint": "Mix sources, store excess, manage demand, maintain backup.",
+      "explanation": "Intermittency is the biggest technical challenge of a high-renewables grid. The UK has invested heavily in interconnectors to Europe (importing wind from Denmark or solar from Spain) and in battery storage, which together have made grids with 50%+ renewables practical. Hydrogen is a promising long-term storage option."
+    },
+    {
+      "id": "phys-igcse-energy-resources-016",
+      "q": "Why is the Sun ultimately the source of nearly all our energy resources, including fossil fuels?",
+      "a": "Most energy resources trace back to the Sun. Plants capture solar energy via photosynthesis; animals eat plants; the buried remains of ancient plants and animals form fossil fuels over millions of years. Wind is caused by uneven solar heating of the atmosphere. The water cycle (driving hydroelectricity) is powered by solar evaporation. Solar PV and solar thermal use the Sun directly. The only energy resources that don't trace back to the Sun are: nuclear (energy locked in atomic nuclei from when the Solar System formed), geothermal (heat from radioactive decay deep in the Earth), and tidal (gravitational interaction with the Moon and Sun).",
+      "hint": "Think about photosynthesis, weather, the water cycle.",
+      "explanation": "This is a beautiful unifying idea in physics. The Sun is by far the largest energy input to Earth — about 173,000 TW continuously, of which human civilisation uses only a tiny fraction (around 20 TW total). All our renewable energy potential is essentially captured solar power, in one form or another."
+    },
+    {
+      "id": "phys-igcse-energy-resources-017",
+      "q": "Compare the environmental impact of generating 1 unit of electricity from coal versus from wind.",
+      "a": "Coal: releases approximately 1 kg of CO₂ per kWh of electricity, plus SO₂ (acid rain), NOx, and particulates that affect human health; produces ash and waste; mining damages landscapes. Wind: zero direct emissions in operation; some emissions from manufacturing and installing turbines (about 10-30 g CO₂ per kWh over a turbine's lifetime); some impact on birds, bats, and visual amenity. Wind's lifetime CO₂ emissions are roughly 30-100 times lower than coal's per unit of electricity.",
+      "hint": "Coal high carbon and pollution; wind low carbon overall.",
+      "explanation": "Lifecycle analysis is the fair comparison — every energy source has some manufacturing or construction impact. Even when you account for the carbon cost of making turbines, wind is around 30-100 times cleaner than coal. Solar is similar (around 40-50 g CO₂ per kWh)."
+    },
+    {
+      "id": "phys-igcse-energy-resources-018",
+      "q": "Why is biomass sometimes described as a carbon-neutral fuel, and what is the catch?",
+      "a": "When biomass (wood, biofuel crops) is burned, it releases CO₂ — but the plants that produced the biomass absorbed roughly the same amount of CO₂ from the atmosphere while growing. In a steady-state where biomass is grown at the same rate it is burned, no net CO₂ is added to the atmosphere — hence 'carbon-neutral'. The catch: this only holds if (i) the biomass is replanted/regrown promptly, (ii) the harvesting doesn't release carbon from the soil, (iii) growing, transporting and processing the biomass doesn't use significant fossil fuels, and (iv) the land use was already farmland (not converted forest, which would have stored more carbon). In practice, large-scale biomass often falls short of all these conditions.",
+      "hint": "Plants absorb CO₂ while growing — but the full picture is more complicated.",
+      "explanation": "Biomass is genuinely renewable and can be near-carbon-neutral if managed carefully — but it's also been criticised for sometimes being WORSE than fossil fuels when full lifecycle effects are counted. Drax in the UK burns wood pellets imported from American forests; whether this is genuinely low-carbon is hotly debated."
+    },
+    {
+      "id": "phys-igcse-energy-resources-019",
+      "q": "Why is nuclear power neither renewable nor very high in CO₂ emissions — and why does this position it as a useful but controversial energy source?",
+      "a": "Nuclear is non-renewable because uranium fuel exists in finite quantities and is consumed when used. But unlike fossil fuels, nuclear fission doesn't release CO₂ — only heat. So nuclear is low-carbon (good for climate change) but not renewable (won't last forever). This combination makes it useful: it can provide large, continuous, low-carbon electricity, complementing intermittent renewables. The controversy comes from: long-lived radioactive waste (must be stored safely for thousands of years); the small but non-zero risk of major accidents; high upfront costs; and (more recently) competition from rapidly cheapening renewables.",
+      "hint": "Low carbon + non-renewable + waste + risk.",
+      "explanation": "Nuclear's role in climate strategy is intensely debated. Pro-nuclear advocates say it's the only proven way to scale up low-carbon electricity quickly; sceptics argue the costs and risks make renewables plus storage the better choice. The answer probably depends on a country's geography and politics."
+    },
+    {
+      "id": "phys-igcse-energy-resources-020",
+      "q": "'The UK should aim to generate all its electricity from renewable sources by 2050.' Discuss this statement.",
+      "a": "Arguments for: renewables are essential to meet climate change targets (net zero by 2050); the UK has excellent wind and tidal resources; renewable costs have fallen dramatically and continue to fall; reducing dependence on imported fossil fuels improves national energy security; renewables create domestic jobs and industries. Arguments against: renewables are intermittent — solar and wind don't always generate when needed; current battery and storage technology can't yet cope with the variability at full scale; some industrial uses (steel, aviation, shipping) are hard to electrify; nuclear may be needed for reliable 'base load'; a 100% renewable grid would require vast investment in transmission, storage, and demand management. Conclusion: a balanced view might support a very high share of renewables (80-90%) supplemented by nuclear and storage, rather than a strict 100% renewable target — but the direction of travel is clear. The phrase 'aim to generate all' is also worth questioning: even a strong renewables strategy probably includes nuclear and some flexible gas (with carbon capture) for resilience. The right question may not be 'all renewable?' but 'all low-carbon?'.",
+      "hint": "Consider feasibility, cost, intermittency, and the role of nuclear.",
+      "explanation": "Evaluation questions reward a balanced answer that addresses complexity. The strongest answers nuance the question itself — recognising that 'renewable' and 'low-carbon' aren't the same, and that a smart strategy probably includes both. UK net-zero plans currently target a mix dominated by renewables, supported by nuclear and storage."
+    }
+  ]
+}

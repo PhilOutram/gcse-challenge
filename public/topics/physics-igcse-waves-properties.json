@@ -1,0 +1,147 @@
+{
+  "subject": "Physics",
+  "level": "IGCSE Higher",
+  "topic": "Wave Properties and the Wave Equation",
+  "questions": [
+    {
+      "id": "phys-igcse-waves-properties-001",
+      "q": "What does a wave transfer?",
+      "a": "Energy (and information), without transferring matter.",
+      "hint": "A floating object stays roughly in place as a wave passes — what moves through it?",
+      "explanation": "This is fundamental: the wave moves through the medium, but the medium itself doesn't travel with it. A duck on the sea bobs up and down but doesn't move with the waves."
+    },
+    {
+      "id": "phys-igcse-waves-properties-002",
+      "q": "Define the amplitude of a wave.",
+      "a": "The maximum displacement of a point on the wave from its rest position.",
+      "hint": "Measured from the centre line to the peak, not peak to trough.",
+      "explanation": "Amplitude is related to the energy carried by the wave — larger amplitude means more energy. Be careful not to confuse it with the peak-to-trough distance, which is twice the amplitude."
+    },
+    {
+      "id": "phys-igcse-waves-properties-003",
+      "q": "Define the wavelength of a wave, and give its symbol.",
+      "a": "The distance from one point on a wave to the equivalent point on the next wave (e.g., crest to crest, or trough to trough). Symbol: λ (lambda). Measured in metres.",
+      "hint": "Symbol is a Greek letter that looks like an upside-down y.",
+      "explanation": "You can measure wavelength from any point to its equivalent on the next cycle — crest to crest, trough to trough, or any matching pair. It's a complete repetition distance."
+    },
+    {
+      "id": "phys-igcse-waves-properties-004",
+      "q": "Define the frequency of a wave, and give its unit.",
+      "a": "The number of complete wave cycles passing a fixed point per second. Unit: hertz (Hz).",
+      "hint": "1 Hz = 1 cycle per second.",
+      "explanation": "Frequency is purely about how often the wave repeats. It doesn't tell you about speed or wavelength directly — but combined with wavelength via the wave equation, it gives you the wave speed."
+    },
+    {
+      "id": "phys-igcse-waves-properties-005",
+      "q": "Define the time period of a wave.",
+      "a": "The time taken for one complete wave cycle to pass a fixed point. Measured in seconds (s).",
+      "hint": "It's the inverse of frequency.",
+      "explanation": "Time period and frequency are related by T = 1/f. A wave of frequency 50 Hz has a period of 1/50 = 0.02 s — each cycle takes 20 milliseconds."
+    },
+    {
+      "id": "phys-igcse-waves-properties-006",
+      "q": "What is the wave equation?",
+      "a": "wave speed = frequency × wavelength, or v = f × λ.",
+      "hint": "Speed equals frequency times wavelength.",
+      "explanation": "This is the most important equation in the waves topic. Units must match: if frequency is in Hz and wavelength in metres, speed is in m/s. Make sure you can rearrange it: f = v/λ and λ = v/f."
+    },
+    {
+      "id": "phys-igcse-waves-properties-007",
+      "q": "What is the relationship between frequency and time period?",
+      "a": "f = 1/T (frequency equals one divided by the time period), and equivalently T = 1/f.",
+      "hint": "They are reciprocals of one another.",
+      "explanation": "Higher frequency = shorter period (more cycles fit into each second). A 100 Hz wave has a period of 0.01 s; a 0.5 Hz wave has a period of 2 s."
+    },
+    {
+      "id": "phys-igcse-waves-properties-008",
+      "q": "What is the difference between a transverse and a longitudinal wave?",
+      "a": "In a transverse wave, the oscillations are perpendicular (at right angles) to the direction of energy transfer. In a longitudinal wave, the oscillations are parallel to the direction of energy transfer.",
+      "hint": "Think about how the medium vibrates relative to the wave's direction.",
+      "explanation": "Transverse: water waves, light, waves on a stretched rope. Longitudinal: sound, P-waves (primary seismic waves), Slinky compression waves. The wave equation applies to both types."
+    },
+    {
+      "id": "phys-igcse-waves-properties-009",
+      "q": "Give two examples of transverse waves and two examples of longitudinal waves.",
+      "a": "Transverse: light (and all electromagnetic waves); water waves; waves on a stretched string or rope; S-waves (secondary seismic waves). Longitudinal: sound waves; P-waves (primary seismic waves); compression waves on a Slinky.",
+      "hint": "Light is transverse; sound is longitudinal.",
+      "explanation": "A common exam mistake is to confuse the two. Sound is definitely longitudinal — air molecules vibrate back and forth along the direction the sound is travelling, creating regions of compression and rarefaction."
+    },
+    {
+      "id": "phys-igcse-waves-properties-010",
+      "q": "What is meant by the terms 'compression' and 'rarefaction' in a longitudinal wave?",
+      "a": "Compression: a region where particles of the medium are squashed closer together. Rarefaction: a region where particles are spread further apart.",
+      "hint": "One is high-pressure, the other is low-pressure.",
+      "explanation": "Compressions and rarefactions are the longitudinal-wave equivalent of crests and troughs in a transverse wave. The wavelength of a longitudinal wave can be measured from one compression to the next, or one rarefaction to the next."
+    },
+    {
+      "id": "phys-igcse-waves-properties-011",
+      "q": "A water wave has a frequency of 2 Hz and a wavelength of 1.5 m. Calculate its speed.",
+      "a": "v = f × λ = 2 × 1.5 = 3 m/s.",
+      "hint": "Use v = f × λ.",
+      "explanation": "Straightforward substitution. Always check units: Hz × m gives m/s, which is the correct unit for speed."
+    },
+    {
+      "id": "phys-igcse-waves-properties-012",
+      "q": "A sound wave has a speed of 340 m/s and a frequency of 1700 Hz. Calculate its wavelength.",
+      "a": "λ = v / f = 340 / 1700 = 0.2 m (or 20 cm).",
+      "hint": "Rearrange v = f × λ to get λ = v / f.",
+      "explanation": "This is a typical pitch for a human voice. Higher frequencies give shorter wavelengths at the same speed, which is why high notes have very short wavelengths in air."
+    },
+    {
+      "id": "phys-igcse-waves-properties-013",
+      "q": "A wave has a frequency of 50 Hz. What is its time period?",
+      "a": "T = 1/f = 1/50 = 0.02 s (20 milliseconds).",
+      "hint": "Time period is the reciprocal of frequency.",
+      "explanation": "Mains electricity in the UK is 50 Hz — meaning the voltage completes a cycle every 20 ms. Useful for thinking about how oscilloscope traces of mains voltage look."
+    },
+    {
+      "id": "phys-igcse-waves-properties-014",
+      "q": "What is diffraction?",
+      "a": "The spreading out of a wave as it passes through a gap or around an edge of an obstacle.",
+      "hint": "It's a 'spreading out' effect.",
+      "explanation": "Diffraction is why you can hear someone speaking around a corner even when you can't see them — sound diffracts more than light because its wavelength is much longer."
+    },
+    {
+      "id": "phys-igcse-waves-properties-015",
+      "q": "Describe how the amount of diffraction depends on the size of the gap relative to the wavelength.",
+      "a": "Diffraction is greatest when the gap is roughly the same size as the wavelength. If the gap is much larger than the wavelength, only a small amount of diffraction occurs at the edges. If the gap is much smaller than the wavelength, the wave barely passes through.",
+      "hint": "Match the gap size to the wavelength for maximum diffraction.",
+      "explanation": "This is why a doorway diffracts sound waves well (gap ~1 m, sound wavelength ~1 m for typical speech) but diffracts light hardly at all (light wavelength ~500 nm, much smaller than the gap)."
+    },
+    {
+      "id": "phys-igcse-waves-properties-016",
+      "q": "A wave's frequency is doubled while its speed stays the same. What happens to its wavelength?",
+      "a": "The wavelength is halved.",
+      "hint": "From v = fλ, if v stays the same and f doubles, λ must halve.",
+      "explanation": "Use the wave equation: if v is constant, then f and λ are inversely proportional. Double one, halve the other. This is a common conceptual question testing whether you can use the equation algebraically rather than just plug numbers in."
+    },
+    {
+      "id": "phys-igcse-waves-properties-017",
+      "q": "Describe an experiment using a ripple tank to show that all waves can be diffracted through a gap.",
+      "a": "Set up a ripple tank with a vibrating dipper or bar to create straight waves of known wavelength. Place a barrier with an adjustable gap in the path of the waves. Observe the wave pattern after the gap from above (using a lamp shining down through the water onto a screen). Vary the gap size from much larger than the wavelength down to about one wavelength: diffraction (spreading) increases as the gap size approaches the wavelength.",
+      "hint": "Ripple tank, barrier with a gap, observe spreading.",
+      "explanation": "This is a standard required practical demonstration. The same equipment can be used to demonstrate reflection (by tilting a barrier) and refraction (by placing a glass plate in the tank to make a shallower area). It is a core method for visualising wave behaviour."
+    },
+    {
+      "id": "phys-igcse-waves-properties-018",
+      "q": "A water wave has a wavelength of 4 m and a time period of 0.5 s. Calculate its speed.",
+      "a": "First find frequency: f = 1/T = 1/0.5 = 2 Hz. Then v = f × λ = 2 × 4 = 8 m/s.",
+      "hint": "Find frequency first using f = 1/T, then use v = f × λ.",
+      "explanation": "A two-step problem: typical higher-tier question. Always work in SI units (Hz, m, s) and check that your final unit makes sense."
+    },
+    {
+      "id": "phys-igcse-waves-properties-019",
+      "q": "Explain why the speed of sound in air is approximately constant for all frequencies, even though high-pitched sounds have very different wavelengths from low-pitched sounds.",
+      "a": "The speed of sound in air depends on the properties of the medium (temperature, pressure, density) rather than on the wave's frequency. Because air at a given temperature has a fixed speed of sound (~340 m/s at room temperature), higher frequencies simply correspond to shorter wavelengths, in accordance with v = f × λ. Both a high note and a low note travel through the air at the same speed.",
+      "hint": "What determines the speed of sound in a medium?",
+      "explanation": "If sound speed varied with frequency, then a music performance heard from across a concert hall would arrive as a jumbled mess as high notes arrived at a different time from low notes. This is also true of light in a vacuum (but light slightly disperses by frequency in glass — which is how a prism works)."
+    },
+    {
+      "id": "phys-igcse-waves-properties-020",
+      "q": "A student is told that a particular wave has a frequency of 5 Hz, a wavelength of 0.6 m, and a speed of 2 m/s. Explain whether these values are consistent.",
+      "a": "Use the wave equation: v = f × λ should hold. Calculated value: 5 × 0.6 = 3 m/s, not 2 m/s. The values are inconsistent — the wave speed cannot simultaneously be 2 m/s if the frequency is 5 Hz and the wavelength is 0.6 m. At least one of the measurements is wrong.",
+      "hint": "Plug the numbers into v = f × λ and check whether they match.",
+      "explanation": "Exam questions sometimes include deliberate inconsistencies to test whether you can apply the equation critically. The wave equation is a definitional relationship — it must always hold for a given wave."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "subject": "Physics",
+  "level": "IGCSE Higher",
+  "topic": "The Electromagnetic Spectrum",
+  "questions": [
+    {
+      "id": "phys-igcse-em-spectrum-001",
+      "q": "What is the electromagnetic (EM) spectrum?",
+      "a": "The continuous range of all electromagnetic waves, ordered by frequency (or wavelength), from radio waves at one end to gamma rays at the other.",
+      "hint": "It's a 'spectrum' because there's no break between the types.",
+      "explanation": "All EM waves are the same physical phenomenon — oscillating electric and magnetic fields. They differ only in frequency and wavelength. The boundaries between (e.g.) radio and microwave are conventional, not physical."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-002",
+      "q": "List the seven main types of electromagnetic wave in order of increasing frequency.",
+      "a": "Radio, microwave, infrared, visible, ultraviolet, X-ray, gamma ray.",
+      "hint": "A common mnemonic is 'Roman Men Invented Very Unusual X-ray Guns'.",
+      "explanation": "As frequency increases, wavelength decreases (because v = f × λ and EM waves travel at the same speed in a vacuum). They also become more energetic and more dangerous to living tissue."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-003",
+      "q": "At what speed do all electromagnetic waves travel in a vacuum?",
+      "a": "Approximately 3 × 10⁸ m/s (300,000,000 m/s), the speed of light.",
+      "hint": "Often written as c. It's about 300 million metres per second.",
+      "explanation": "This is one of the fundamental constants of physics. All EM waves — radio, light, X-rays, gamma — travel at the same speed in a vacuum. They slow down in materials like glass or water."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-004",
+      "q": "What type of wave is an electromagnetic wave?",
+      "a": "A transverse wave.",
+      "hint": "Oscillations are perpendicular to the direction of energy transfer.",
+      "explanation": "Specifically, an EM wave consists of an oscillating electric field and an oscillating magnetic field, both at right angles to each other and to the direction the wave is travelling. Unlike sound, EM waves don't need a medium and can travel through a vacuum."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-005",
+      "q": "List the colours of visible light in order of increasing frequency.",
+      "a": "Red, orange, yellow, green, blue, indigo, violet (ROYGBIV).",
+      "hint": "Mnemonic: 'Richard Of York Gave Battle In Vain'.",
+      "explanation": "Red has the longest wavelength and lowest frequency in visible light; violet has the shortest wavelength and highest frequency. Beyond red lies infrared; beyond violet lies ultraviolet."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-006",
+      "q": "Give a typical use of radio waves.",
+      "a": "Broadcasting (TV and radio) and communications.",
+      "hint": "Think about how a radio receives signals.",
+      "explanation": "Radio waves have the longest wavelengths (often metres or more), which lets them diffract well around obstacles and travel long distances. They are also used for mobile phone signals (although strictly those are microwaves) and Wi-Fi."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-007",
+      "q": "Give two uses of microwaves.",
+      "a": "Cooking food (microwave ovens) and satellite transmissions / communications.",
+      "hint": "Think about kitchen appliances and satellite TV.",
+      "explanation": "Microwave ovens use a specific frequency (~2.45 GHz) that water molecules absorb very efficiently, heating water in food. Satellite communications use higher microwave frequencies that pass through the atmosphere without much absorption."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-008",
+      "q": "Give two uses of infrared (IR) radiation.",
+      "a": "Heaters (electric fires, grills) and night-vision equipment / thermal imaging.",
+      "hint": "Think about heat and heat-detecting cameras.",
+      "explanation": "Infrared is what we feel as 'heat' from a fire or the sun. Everything above absolute zero emits IR, so thermal imaging cameras can 'see' people in the dark by detecting their body heat. Also used in TV remote controls."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-009",
+      "q": "Give a use of visible light.",
+      "a": "Optical fibres (communications) and photography / vision.",
+      "hint": "Think about how the internet travels through cables and how cameras work.",
+      "explanation": "Optical fibres carry visible light via total internal reflection, allowing huge amounts of data to be transmitted at the speed of light through glass strands. The internet's backbone is essentially built on optical fibres."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-010",
+      "q": "Give a use of ultraviolet (UV) radiation.",
+      "a": "Fluorescent lamps (UV excites coatings that emit visible light); sterilising water; security marking (UV-sensitive ink).",
+      "hint": "Think about strip lights and 'invisible' marker pens.",
+      "explanation": "UV has enough energy to damage living cells, which is why it can sterilise things by killing bacteria. The same property makes overexposure dangerous to human skin and eyes — it causes sunburn and skin cancer."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-011",
+      "q": "Give two uses of X-rays.",
+      "a": "Medical imaging (e.g., of bones); observing the internal structure of objects (e.g., airport security, materials inspection).",
+      "hint": "Think about hospitals and airport scanners.",
+      "explanation": "X-rays pass through soft tissue but are absorbed by denser materials like bone or metal, creating a shadow image. The dose used in medical X-rays is carefully controlled because X-rays can damage cells and cause cancer."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-012",
+      "q": "Give two uses of gamma rays.",
+      "a": "Sterilising medical equipment and food; cancer treatment (radiotherapy, where gamma rays target and kill tumour cells).",
+      "hint": "Think about how to kill bacteria without heating, and how to treat tumours.",
+      "explanation": "Gamma rays carry the most energy of any EM radiation, making them very damaging to living cells. This is harnessed in radiotherapy: focused gamma beams kill cancer cells. The same property requires strict safety controls."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-013",
+      "q": "What is the detrimental effect on the human body of excessive exposure to microwaves?",
+      "a": "Internal heating of body tissue (especially tissues high in water content, like organs and the eyes), which can damage cells.",
+      "hint": "What do microwaves do to water?",
+      "explanation": "Microwave ovens are shielded specifically to prevent this. The metal mesh in the door has holes small enough that microwaves can't pass through but visible light can. The 'safety interlock' switches off the magnetron when the door opens."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-014",
+      "q": "What are the detrimental effects of excessive exposure to ultraviolet radiation?",
+      "a": "Damages skin cells, causing sunburn in the short term and an increased risk of skin cancer in the long term. Damages the eyes, potentially leading to cataracts. May damage DNA, which is what triggers cancer.",
+      "hint": "Sunburn and skin cancer.",
+      "explanation": "Protective measures: wear sunscreen with appropriate SPF; cover skin with clothing; wear sunglasses that block UV; avoid sun beds; limit time in strong sunshine, especially in the middle of the day."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-015",
+      "q": "What are the detrimental effects of excessive exposure to X-rays and gamma rays?",
+      "a": "Ionising radiation damages cells by knocking electrons off atoms in DNA molecules. Short-term exposure to high doses causes radiation sickness; long-term low-dose exposure increases the risk of cancer and may cause mutations.",
+      "hint": "These ionise atoms and damage DNA.",
+      "explanation": "Protective measures: medical staff stand behind lead shielding when taking X-rays; doses are kept as low as practically possible; lead aprons protect parts of the patient's body that aren't being imaged; total exposure is monitored using a film badge or dosimeter."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-016",
+      "q": "Calculate the wavelength of a radio wave with frequency 100 MHz (1 × 10⁸ Hz) travelling at the speed of light in a vacuum.",
+      "a": "λ = v / f = (3 × 10⁸) / (1 × 10⁸) = 3 m.",
+      "hint": "Use the wave equation v = f × λ, then rearrange.",
+      "explanation": "100 MHz is in the FM radio band — that's why FM radio antennas are typically about 1.5 m (a quarter of the wavelength). VHF/UHF antennas are tuned to match the wavelength of the signal they're picking up."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-017",
+      "q": "Explain why the colours of the visible spectrum are part of the same continuous EM spectrum as radio waves and X-rays.",
+      "a": "All electromagnetic waves consist of oscillating electric and magnetic fields and travel at the same speed in a vacuum. They differ only in their frequency (and therefore wavelength). Visible light has a particular range of frequencies that the human eye can detect; radio and X-rays have frequencies outside this range, but the underlying physics is identical. The colours within visible light are themselves a small continuous spectrum within the broader EM spectrum.",
+      "hint": "What's physically the same about all of them?",
+      "explanation": "There is nothing fundamentally special about visible light — it's just the range of EM waves our eyes happen to be sensitive to (because the Sun's emission peaks here and the atmosphere is transparent to these wavelengths). Some animals can see in UV or infrared."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-018",
+      "q": "Why does the danger of EM radiation generally increase as you move from radio waves to gamma rays?",
+      "a": "Higher-frequency EM waves carry more energy per photon. Above a certain frequency (in the UV range), the energy per photon is enough to ionise atoms — knocking electrons off them. Ionising radiation (UV, X-rays, gamma) can damage DNA and cause cancer, whereas non-ionising radiation (radio, microwave, infrared, visible) can only cause heating effects, which are far less harmful at typical exposure levels.",
+      "hint": "The key word is 'ionising'.",
+      "explanation": "This is why radio waves and visible light are essentially harmless at normal levels but UV, X-rays and gamma rays must be controlled carefully. Even very intense radio waves can cause harm — but the mechanism is heating, not ionisation."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-019",
+      "q": "How does the wavelength of microwaves compare to the wavelength of visible light, and how does this affect their interaction with matter?",
+      "a": "Microwaves have wavelengths of order centimetres; visible light has wavelengths of order hundreds of nanometres (i.e. microwaves are roughly 100,000 times longer in wavelength than visible light). This difference affects how each interacts with matter: visible light bounces off most objects' surfaces, allowing us to see them; microwaves pass through many materials (paper, plastic, glass) but are absorbed by water molecules through vibration, which is why microwave ovens heat food but don't typically heat the container.",
+      "hint": "Different wavelengths interact with different scales of matter.",
+      "explanation": "More broadly, an EM wave interacts most strongly with structures of a similar size to its wavelength. This explains everything from why X-rays can image bones (small wavelength matches atomic structures) to why long-wavelength radio waves bounce off the ionosphere (matching ionospheric structures) for long-distance communications."
+    },
+    {
+      "id": "phys-igcse-em-spectrum-020",
+      "q": "A doctor uses an X-ray machine to image a patient's broken bone. Explain how the X-rays produce the image, and describe two safety precautions taken to protect the patient and the radiographer.",
+      "a": "X-rays pass through soft tissue (skin, muscle, organs) but are absorbed by dense materials like bone. A photographic plate or digital detector behind the patient records where X-rays reached it, producing a shadow image — bones appear white because they have blocked the X-rays. Safety precautions: minimising the dose (using the shortest exposure necessary); shielding the parts of the patient's body that aren't being imaged with a lead apron; the radiographer stands behind a lead-lined wall or screen during the exposure; the radiographer wears a dosimeter (film badge) to monitor cumulative exposure.",
+      "hint": "Think about how the image forms, then how to keep dose low.",
+      "explanation": "A textbook 6-mark application question. The marks come from: describing the physics of image formation; identifying X-rays as ionising radiation; and stating sensible precautions for both patient and operator. Always link the precaution back to its purpose (e.g., 'lead absorbs X-rays')."
+    }
+  ]
+}

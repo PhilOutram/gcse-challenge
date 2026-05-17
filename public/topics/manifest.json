@@ -16,6 +16,30 @@
     "questionCount": 5
   },
   {
+    "file": "geography-gcse-earthquakes.json",
+    "id": "geography-gcse-earthquakes",
+    "subject": "Geography",
+    "level": "GCSE",
+    "topic": "Earthquakes",
+    "questionCount": 20
+  },
+  {
+    "file": "geography-gcse-tropical-storms.json",
+    "id": "geography-gcse-tropical-storms",
+    "subject": "Geography",
+    "level": "GCSE",
+    "topic": "Tropical Storms",
+    "questionCount": 20
+  },
+  {
+    "file": "geography-gcse-volcanoes.json",
+    "id": "geography-gcse-volcanoes",
+    "subject": "Geography",
+    "level": "GCSE",
+    "topic": "Volcanic Eruptions",
+    "questionCount": 20
+  },
+  {
     "file": "geography-y9-rivers.json",
     "id": "geo-y9-rivers",
     "subject": "Geography",
@@ -30,5 +54,37 @@
     "level": "Year 9",
     "topic": "World War One",
     "questionCount": 5
+  },
+  {
+    "file": "physics-igcse-electromagnetic-spectrum.json",
+    "id": "physics-igcse-electromagnetic-spectrum",
+    "subject": "Physics",
+    "level": "IGCSE Higher",
+    "topic": "The Electromagnetic Spectrum",
+    "questionCount": 20
+  },
+  {
+    "file": "physics-igcse-reflection-refraction-lenses.json",
+    "id": "physics-igcse-reflection-refraction-lenses",
+    "subject": "Physics",
+    "level": "IGCSE Higher",
+    "topic": "Reflection, Refraction and Lenses",
+    "questionCount": 20
+  },
+  {
+    "file": "physics-igcse-sound-waves.json",
+    "id": "physics-igcse-sound-waves",
+    "subject": "Physics",
+    "level": "IGCSE Higher",
+    "topic": "Sound Waves",
+    "questionCount": 20
+  },
+  {
+    "file": "physics-igcse-waves-properties.json",
+    "id": "physics-igcse-waves-properties",
+    "subject": "Physics",
+    "level": "IGCSE Higher",
+    "topic": "Wave Properties and the Wave Equation",
+    "questionCount": 20
   }
 ]

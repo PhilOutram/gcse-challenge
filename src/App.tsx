@@ -5,11 +5,26 @@ import ResultsScreen from './ResultsScreen';
 import {
   NAME_KEY,
   STATS_KEY,
+  THEME_KEY,
+  TOTALS_KEY,
   getDeviceId,
+  incrementTotal,
   loadJSON,
   saveJSON,
   updatePlayerStat,
+  type AllTotals,
 } from './stats';
+
+export type Theme = 'light' | 'dark';
+
+function initialTheme(): Theme {
+  const stored = loadJSON<Theme | ''>(THEME_KEY, '');
+  if (stored === 'light' || stored === 'dark') return stored;
+  if (typeof window !== 'undefined' && window.matchMedia) {
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  return 'dark';
+}
 import {
   cancelSession,
   createSession,
@@ -41,6 +56,8 @@ export default function App() {
   const [name, setNameState] = useState<string>(() => loadJSON<string>(NAME_KEY, ''));
   const [session, setSession] = useState<SessionState | null>(null);
   const [stats, setStats] = useState<PlayerStats>(() => loadJSON<PlayerStats>(STATS_KEY, {}));
+  const [totals, setTotals] = useState<AllTotals>(() => loadJSON<AllTotals>(TOTALS_KEY, {}));
+  const [theme, setTheme] = useState<Theme>(initialTheme);
 
   const [manifest, setManifest] = useState<ManifestEntry[]>([]);
   const [manifestError, setManifestError] = useState<string | null>(null);
@@ -52,6 +69,11 @@ export default function App() {
 
   useEffect(() => saveJSON(NAME_KEY, name), [name]);
   useEffect(() => saveJSON(STATS_KEY, stats), [stats]);
+  useEffect(() => saveJSON(TOTALS_KEY, totals), [totals]);
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', theme === 'dark');
+    saveJSON(THEME_KEY, theme);
+  }, [theme]);
 
   useEffect(() => {
     fetchManifest()
@@ -83,6 +105,17 @@ export default function App() {
       }
       return next;
     });
+    setTotals(prev => {
+      let next = prev;
+      for (const entry of newEntries) {
+        if (entry.wonBy === name) {
+          next = incrementTotal(next, name, 'correct');
+        } else if (entry.losers?.includes(name)) {
+          next = incrementTotal(next, name, 'wrong');
+        }
+      }
+      return next;
+    });
   }, [session, role, name]);
 
   useEffect(() => {
@@ -107,10 +140,9 @@ export default function App() {
 
     const existing = session.players?.[trimmed];
     if (existing) {
-      // Reconnect: keep score and joinedAt, update deviceId to the new device.
-      if (existing.deviceId !== deviceId) {
-        await updateSessionPaths({ [`players/${trimmed}/deviceId`]: deviceId });
-      }
+      // Reconnect only if this device originally owned the name.
+      // (Different deviceId = someone else's slot, blocked by the UI too.)
+      if (existing.deviceId === deviceId) return; // already mine, no-op
       return;
     }
 
@@ -271,14 +303,14 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-indigo-950 via-slate-950 to-slate-950 text-slate-100">
+    <div className="min-h-screen bg-gradient-to-b from-indigo-50 via-slate-50 to-slate-50 text-slate-900 dark:from-indigo-950 dark:via-slate-950 dark:to-slate-950 dark:text-slate-100">
       <div className="max-w-2xl mx-auto px-4 py-6">
-        <header className="flex justify-between items-baseline pb-4 mb-6 border-b border-white/10">
+        <header className="flex justify-between items-baseline pb-4 mb-6 border-b border-slate-200 dark:border-white/10">
           <h1 className="text-2xl font-semibold tracking-tight">
-            GCSE <span className="text-amber-400">Challenge</span>
+            GCSE <span className="text-amber-500 dark:text-amber-400">Challenge</span>
           </h1>
           {session && (
-            <div className="text-xs text-slate-400">
+            <div className="text-xs text-slate-500 dark:text-slate-400">
               {role === 'qm' ? `Hosting as ${session.qmName}` :
                 role === 'player' ? `Playing as ${name}` :
                   `${session.qmName}'s quiz`}
@@ -287,7 +319,7 @@ export default function App() {
         </header>
 
         {manifestError && (
-          <div className="mb-4 p-3 rounded border border-rose-700/60 bg-rose-950/30 text-sm text-rose-300">
+          <div className="mb-4 p-3 rounded border border-rose-300 bg-rose-50 text-sm text-rose-700 dark:border-rose-700/60 dark:bg-rose-950/30 dark:text-rose-300">
             Failed to load topics: {manifestError}
           </div>
         )}
@@ -298,11 +330,15 @@ export default function App() {
             role={role}
             name={name}
             setName={setName}
+            deviceId={deviceId}
+            totals={totals}
             manifest={manifest}
             filterSubject={filterSubject}
             setFilterSubject={setFilterSubject}
             filterLevel={filterLevel}
             setFilterLevel={setFilterLevel}
+            theme={theme}
+            setTheme={setTheme}
             onHost={handleHost}
             onJoin={handleJoin}
             onCancel={handleCancel}
@@ -333,6 +369,7 @@ export default function App() {
           <ResultsScreen
             session={session}
             role={role}
+            totals={totals}
             onBackToLobby={handleBackToLobby}
             onCancel={handleCancel}
           />
